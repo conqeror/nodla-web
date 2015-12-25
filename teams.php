@@ -15,15 +15,18 @@
 
     <?php
     if($_GET['registered'] == 1){
-      echo '<div class="alert alert-success container" role="alert">Úspešne si prihlásil svoj tím!</div>';
+      echo '<div class="alert alert-success container" role="alert"> <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Úspešne si prihlásil svoj tím!</div>';
+      echo '<div class="alert alert-warning container" role="alert"> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Na e-mail zadaný pri registrácií ti prišla správa s linkom na editovanie tímu a taktiež s informáciami o platbe.</div>';
     }
     ?>
     <div class="table-responsive container">
       <table class="table table-hover">
         <thead>
           <tr>
-            <th class="col-md-3">Názov tímu</th>
-            <th class="col-md-11">Členovia</th>
+            <th class="col-md-1">ID</th>
+            <th class="col-md-2">Názov tímu</th>
+            <th class="col-md-6">Členovia</th>
+            <th class="col-md-1">Platba</th>
           </tr>
         </thead>
         <tbody>
@@ -39,8 +42,9 @@
     }
     while($row = mysqli_fetch_row($result))
     {
+      if($row[14] == 1){
       echo "<tr>";
-
+      echo "<td>$row[0]</td>";
       echo "<td>$row[2]</td>";
 
       $members = "";
@@ -50,8 +54,19 @@
       }
       $members .= $row[11];
       $members .= " (" . $row[12] . ")";
-      echo "<td>$members</td>";
-      echo "</tr>\n";
+      echo "<td>$members</td><td>";
+      if($row[13] == 0){
+        echo '<a class="text-danger">NIE</a>';
+      }
+      if($row[13] == 1){
+        echo '<a class="text-success">ÁNO</a>';
+      }
+      if($row[13] == 2){
+        echo '<a class="text-warning">na štarte</a>';
+      }
+
+      echo "</td></tr>\n";
+      }
     }
 
     ?>

@@ -21,11 +21,12 @@ body {
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
 
-.container {
+
+.container-footer {
   width: auto;
   max-width: 1080px;
   padding: 0 15px;
 }
-.container .text-muted {
+.container-footer .text-muted {
   margin: 20px 0;
 }

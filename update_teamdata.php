@@ -18,6 +18,8 @@ $name4=$_POST['player4'];
 $age4=$_POST['age4'];
 $id=$_POST['id'];
 $as=$_POST['as'];
+$attend = $_POST['attend'];
+
 // Validation will be added here
 
 if ($errorMessage != "" ) {
@@ -37,7 +39,8 @@ SET `teamname` = '$teamname',
 `name3` = '$name3',
 `age3` = '$age3',
 `name4` = '$name4',
-`age4` = '$age4'
+`age4` = '$age4',
+`attend` = '$attend'
 WHERE `id` = '$id'
 ";
 mysqli_query($link,$insqDbtb) or die(mysqli_error($link));

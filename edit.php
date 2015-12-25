@@ -27,6 +27,12 @@
     if($_GET['edited'] == 1){
       echo '<div class="alert alert-success container" role="alert">Úspešne si editoval údaje o tíme!</div>';
     }
+
+    $checked = "";
+    if($team[14] == 1){
+      $checked = "checked";
+    }
+
     echo <<<EOT
     <div class="container">
       Tu môžeš editovať údaje o svojom tíme.
@@ -107,10 +113,17 @@
         	<input type="number" class="form-control" name="age4" id="age4" value="$team[12]">
         </div>
     </div>
+    <div class="form-group">
+        <label for="attend" class="col-sm-3">Chcem sa zúčastniť Nôdle</label>
+        <div class="col-sm-3">
+          <input type="hidden" name="attend" id="attend" value=0>
+        	<input type="checkbox" name="attend" id="attend" value=1 $checked>
+        </div>
+    </div>
 
     <div class="form-group">
-        <div class="col-sm-offset-1 col-sm-11">
-            <button type="submit" class="btn btn-warning" name="submit" id="submit">Submit</button>
+        <div class="col-sm-11">
+            <button type="submit" class="btn btn-warning" name="submit" id="submit">Odoslať</button>
         </div>
     </div>
     </form>
