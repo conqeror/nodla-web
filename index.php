@@ -31,7 +31,7 @@
 
         <!-- First Featurette -->
         <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="img/jedlo.jpg">
+            <img class="featurette-image img-circle img-responsive pull-right" alt="Palacinky" src="img/jedlo.jpg">
             <h2 class="featurette-heading">Šifrovačka,
                 <span class="text-muted">z ktorej neodídete hladní.</span>
             </h2>
@@ -45,7 +45,7 @@
 
         <!-- Second Featurette -->
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="img/sneh.jpg">
+            <img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg">
             <h2 class="featurette-heading">Šifrovačka,
                 <span class="text-muted">kde sa budete brodiť snehom.</span>
             </h2>
@@ -58,7 +58,7 @@
 
         <!-- Third Featurette -->
         <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="img/sviecka.jpg">
+            <img class="featurette-image img-circle img-responsive pull-right" alt="Cinovy prsten" src="img/sviecka.jpg">
             <h2 class="featurette-heading">Šifrovačka,
                 <span class="text-muted">na ktorej vám šifrovacie pomôcky nebudú stačiť.</span>
             </h2>
@@ -71,15 +71,11 @@
         <hr class="featurette-divider">
 
         <div class="featurette" id="begin">
-          <a href="register.php">
-            <button class="btn btn-success btn-lg col-sm-offset-3" type="button">
+          <a class="btn btn-success btn-lg col-sm-offset-3" href="register.php">
               <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Chcem sa prihlásiť!
-            </button>
           </a>
-          <a href="about.php">
-            <button class="btn btn-warning btn-lg col-sm-offset-1" type="button">
+          <a class="btn btn-warning btn-lg col-sm-offset-1" href="about.php">
               <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Chcem zistiť viac!
-            </button>
           </a>
         </div>
 
