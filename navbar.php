@@ -15,6 +15,12 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
+                        <a href="about.php">Čo je to?</a>
+                    </li>
+                    <li>
+                        <a href="rules.php">Pravidlá</a>
+                    </li>
+                    <li>
                         <a href="register.php">Registrácia</a>
                     </li>
                     <li>

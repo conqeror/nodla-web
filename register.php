@@ -98,6 +98,8 @@
     </form>
     </div>
 
+
+    <?php include "footer.php" ?>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 

@@ -13,6 +13,8 @@
     <!-- let the content begin -->
 
 
+
+    <?php include "footer.php" ?>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
