@@ -15,6 +15,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
+                        <a href="news.php">Aktuality</a>
+                    </li>
+                    <li>
                         <a href="about.php">Čo je to?</a>
                     </li>
                     <li>
@@ -27,7 +30,7 @@
                         <a href="teams.php">Tímy</a>
                     </li>
                     <li>
-                        <a href="contact.php">Kontakt</a>
+                        <a href="forum.php">Fórum</a>
                     </li>
                 </ul>
             </div>
