@@ -9,7 +9,7 @@ $name=strip_tags($_POST['name']);
 $message=strip_tags($_POST['message']);
 $org=strip_tags($_POST['org']);
 
-if($name = ""){
+if($name == ""){
   $name = "Anonym";
 }
 
