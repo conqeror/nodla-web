@@ -34,7 +34,7 @@
         $days_to_start = floor(($competitionstart - time())/86400);
         $days_to_register = floor(($registrationend - time())/86400);
         echo <<<EOT
-        <div class ="col-md-2">
+        <div class ="col-md-3">
           <div class="alert alert-success">Prihlásených je už<br><div class="infonum">$num_teams z $capacity</div>tímov.</div>
           <div class="alert alert-success">Registrácia končí o<br><div class="infonum">$days_to_register</div>dní.</div>
           <div class="alert alert-success">Nôdľa začína o<br><div class="infonum">$days_to_start</div>dní.</div>
@@ -42,7 +42,7 @@
 EOT;
 
         $date_format = "d. m. Y H:i";
-        echo '<div class="col-md-10"><h2>Novinky</h2>';
+        echo '<div class="col-md-9"><h2>Novinky</h2>';
 
         $result = mysqli_query($link, "SELECT * FROM news ORDER BY id DESC");
         if (!$result) {

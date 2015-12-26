@@ -23,13 +23,13 @@
 
     <div class="form-group">
     <label for="teamname" class="col-sm-2">Názov tímu</label>
-    <div class="col-sm-6">
+    <div class="col-sm-7">
       <input type="text" class="form-control" name="teamname" id="teamname" required placeholder="Ešte sa dohodneme">
     </div>
     </div>
 
     <div class="form-group">
-        <label for="email" class="col-sm-1">e-mail</label>
+        <label for="email" class="col-sm-offset-1 col-sm-1">e-mail</label>
         <div class="col-sm-4">
         	<input type="email" class="form-control" name="email" id="email" required placeholder="sifrovacka@nodla.sk">
         </div>
@@ -42,7 +42,7 @@
     <legend>1. člen</legend>
 
     <div class="form-group">
-        <label for="player1" class="col-sm-1">Meno</label>
+        <label for="player1" class="col-sm-offset-1 col-sm-1">Meno</label>
         <div class="col-sm-4">
         	<input type="text" class="form-control" name="player1" required id="player1">
         </div>
@@ -55,7 +55,7 @@
     <legend>2. člen</legend>
 
     <div class="form-group">
-        <label for="player2" class="col-sm-1">Meno</label>
+        <label for="player2" class="col-sm-offset-1 col-sm-1">Meno</label>
         <div class="col-sm-4">
         	<input type="text" class="form-control" name="player2" required id="player2">
         </div>
@@ -68,7 +68,7 @@
     <legend>3. člen</legend>
 
     <div class="form-group">
-        <label for="player3" class="col-sm-1">Meno</label>
+        <label for="player3" class="col-sm-offset-1 col-sm-1">Meno</label>
         <div class="col-sm-4">
         	<input type="text" class="form-control" name="player3" required id="player3">
         </div>
@@ -81,7 +81,7 @@
     <legend>4. člen</legend>
 
     <div class="form-group">
-        <label for="player4" class="col-sm-1">Meno</label>
+        <label for="player4" class="col-sm-offset-1 col-sm-1">Meno</label>
         <div class="col-sm-4">
         	<input type="text" class="form-control" name="player4" required id="player4">
         </div>
@@ -99,7 +99,7 @@
     </div>
 
     <div class="form-group">
-        <div class="col-sm-offset-1 col-sm-11">
+        <div class="col-sm-offset-2 col-sm-11">
             <button type="submit" class="btn btn-warning" name="submit" id="submit">Odoslať</button>
         </div>
     </div>
