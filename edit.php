@@ -48,18 +48,18 @@
     <div class="form-group">
     <label for="teamname" class="col-sm-2">Názov tímu</label>
     <div class="col-sm-6">
-      <input type="text" class="form-control" name="teamname" id="teamname" value="$team[teamname]">
+      <input type="text" class="form-control" name="teamname" id="teamname" required value="$team[teamname]">
     </div>
     </div>
 
     <div class="form-group">
         <label for="email" class="col-sm-1">e-mail</label>
         <div class="col-sm-4">
-        	<input type="email" class="form-control" name="email" id="email" value="$team[email]">
+        	<input type="email" class="form-control" name="email" id="email" required value="$team[email]">
         </div>
         <label for="phone" class="col-sm-1">tel. číslo</label>
         <div class="col-sm-2">
-        	<input type="tel" class="form-control" name="phone" id="phone" value="$team[phone]">
+        	<input type="tel" class="form-control" name="phone" id="phone" required value="$team[phone]">
         </div>
     </div>
 
@@ -68,7 +68,7 @@
     <div class="form-group">
         <label for="player1" class="col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player1" id="player1" value="$team[name1]">
+        	<input type="text" class="form-control" name="player1" id="player1" required value="$team[name1]">
         </div>
         <label for="age1" class="col-sm-1">Vek</label>
         <div class="col-sm-1">
@@ -81,7 +81,7 @@
     <div class="form-group">
         <label for="player2" class="col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player2" id="player2" value="$team[name2]">
+        	<input type="text" class="form-control" name="player2" id="player2" required value="$team[name2]">
         </div>
         <label for="age2" class="col-sm-1">Vek</label>
         <div class="col-sm-1">
@@ -94,7 +94,7 @@
     <div class="form-group">
         <label for="player3" class="col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player3" id="player3" value="$team[name3]">
+        	<input type="text" class="form-control" name="player3" id="player3" required value="$team[name3]">
         </div>
         <label for="age3" class="col-sm-1">Vek</label>
         <div class="col-sm-1">
@@ -107,7 +107,7 @@
     <div class="form-group">
         <label for="player4" class="col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player4" id="player4" value="$team[name4]">
+        	<input type="text" class="form-control" name="player4" id="player4" required value="$team[name4]">
         </div>
         <label for="age4" class="col-sm-1">Vek</label>
         <div class="col-sm-1">

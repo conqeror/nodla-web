@@ -22,7 +22,7 @@
       Ak máš nejaké otázky, toto je správne miesto, kde ich môžeš položiť.<br>
       Tiež si tu môžeš zohnať chýbajúcich členov do tímu alebo kľudne nám len niečo pekné odkázať.
       <hr>
-      <form class="form-horizontal" id="form_members" role="form" action="send_forummessage.php" method="POST">
+      <form class="form-horizontal" id="send_message" role="form" action="send_forummessage.php" method="POST">
 
         <div class="form-group">
             <label for="name" class="col-sm-1">Meno</label>
@@ -35,7 +35,7 @@
         <div class="form-group">
           <label for="message" class="col-sm-1">Správa</label>
           <div class="col-sm-6">
-            <textarea class="form-control" rows="5" name="message" id="message"></textarea>
+            <textarea class="form-control" rows="5" name="message" id="message" required></textarea>
           </div>
         </div>
 
@@ -93,7 +93,6 @@ EOT;
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
 </body>
 
 </html>

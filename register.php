@@ -24,18 +24,18 @@
     <div class="form-group">
     <label for="teamname" class="col-sm-2">Názov tímu</label>
     <div class="col-sm-6">
-      <input type="text" class="form-control" name="teamname" id="teamname" placeholder="Ešte sa dohodneme">
+      <input type="text" class="form-control" name="teamname" id="teamname" required placeholder="Ešte sa dohodneme">
     </div>
     </div>
 
     <div class="form-group">
         <label for="email" class="col-sm-1">e-mail</label>
         <div class="col-sm-4">
-        	<input type="email" class="form-control" name="email" id="email" placeholder="sifrovacka@nodla.sk">
+        	<input type="email" class="form-control" name="email" id="email" required placeholder="sifrovacka@nodla.sk">
         </div>
         <label for="phone" class="col-sm-1">tel. číslo</label>
         <div class="col-sm-2">
-        	<input type="tel" class="form-control" name="phone" id="phone" placeholder="0908 123 456">
+        	<input type="tel" class="form-control" name="phone" id="phone" required placeholder="0908 123 456">
         </div>
     </div>
 
@@ -44,7 +44,7 @@
     <div class="form-group">
         <label for="player1" class="col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player1" id="player1">
+        	<input type="text" class="form-control" name="player1" required id="player1">
         </div>
         <label for="age1" class="col-sm-1">Vek</label>
         <div class="col-sm-1">
@@ -57,7 +57,7 @@
     <div class="form-group">
         <label for="player2" class="col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player2" id="player2">
+        	<input type="text" class="form-control" name="player2" required id="player2">
         </div>
         <label for="age2" class="col-sm-1">Vek</label>
         <div class="col-sm-1">
@@ -70,7 +70,7 @@
     <div class="form-group">
         <label for="player3" class="col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player3" id="player3">
+        	<input type="text" class="form-control" name="player3" required id="player3">
         </div>
         <label for="age3" class="col-sm-1">Vek</label>
         <div class="col-sm-1">
@@ -83,7 +83,7 @@
     <div class="form-group">
         <label for="player4" class="col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player4" id="player4">
+        	<input type="text" class="form-control" name="player4" required id="player4">
         </div>
         <label for="age4" class="col-sm-1">Vek</label>
         <div class="col-sm-1">
