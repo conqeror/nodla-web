@@ -78,7 +78,7 @@
     <p>Vyhráva tím s najvyšším počtom bodov, v prípade rovnosti rozhoduje najvyššie navštívené stanovisko a čas jeho dosiahnutia. Za vyriešenie cieľovej aktivity je +1b.
     Ku každej šifre existujú 2 nápovedy a totálka. Použitie jednej nápovedy je penalizované 0.5b, dvoch dokopy 0.75b. Tieto body sa strhnú len v prípade, že prídete na nasledujúce stanovisko. 
     Za regulárne vyriešenie šifry (aj s využitím nápoved) a príchod na nasledujúce stanovisko je +1b.
-    Šifru, na ktorej sa nachádzate, môžete preskočiť požiadaním o totálku, v tom prípade za príchod na nasledujúce stanovisko nezískate žiadne body ani sa nestrhne penalizácia za použité nápovedy - tj nápovedy sa vždy oplatia otvoriť pred totálkou.</p>
+    Šifru, na ktorej sa nachádzate, môžete preskočiť požiadaním o totálku, v tom prípade za príchod na nasledujúce stanovisko nezískate žiadne body ani sa nestrhne penalizácia za použité nápovedy - t.j. nápovedy sa vždy oplatia otvoriť pred totálkou.</p>
     
     <p>Nápovedy a totálky si pýtajte od orga na stanovisku. V prípade, že stanovisko orga nemá, zavolajte na telefónne číslo uvedené v posledných informáciách alebo na štarte.</p>
 
@@ -96,7 +96,7 @@
     </ul>
     Zoznam sa môže ešte meniť s blížiacim sa dátumom hry :)
 
-<h2>Posledné informácie pre hrou</h2>
+<h2>Posledné informácie pred hrou</h2>
 	<p>Čakajte, objavia sa neskôr na tomto mieste.</p>
 
 	
