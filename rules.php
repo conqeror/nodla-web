@@ -14,7 +14,7 @@
     <div class="container first">
         <h1>Dôležité informácie a pravidlá</h1>
 
-<h2>Informácie:</h2>
+<h2>Informácie</h2>
 		<p>
 		Štvrtý ročník šifrovacej hry Nôdľa sa uskutoční v sobotu 20. februára 2016.<br>
 		Nôdľa bude prebiehať cez deň od 9:00 do 21:00. <br>
@@ -22,11 +22,11 @@
 		Nôdľa je terénna šifrovačka. Akože fakt. Les, blato, voda, sneh. Cieľ je vo vykúrenom mieste a veľmi sa na vás tam tešíme :-)<br>
 		Nôdľa je tímová hra, počet ľudí v tíme je maximálne 4.<br>
 		Obtiažnosť šifier na Nôdli by nemala byť príliš veľká. Očakávame, že aj šikovné začiatočnícke tímy nezamrznú (v akomkoľvek význame) niekde na začiatku.<br>
-		Napriek tomu aj skúsené tímy budú mať kopu zážitkov, viď šifry a fotky z minulého ročníka.<br>
+		Napriek tomu aj skúsené tímy budú mať kopu zážitkov<!--viď šifry a fotky z minulého ročníka--><br>
 		Úplní začiatočníci môžu prísť tiež, dajte nám vedieť a budeme k vám extra milí :-)<br>
 		</p>
 		
-<h2>Prihlasovanie a platba štartovného:</h2>
+<h2>Prihlasovanie a platba štartovného</h2>
 		<p>
 		Prihlasovanie je otvorené do 14.2. (prihláška je ideálny Valentínsky darček ;-), prihlasovanie po tomto termíne je možné po konzultácii s organizátormi. 
 		Čím skôr sa však prihlásite, tým lepšie pre nás - objednávame nejaké veci a neskoré prihlášky nám to komplikujú. Ďakujeme. 
