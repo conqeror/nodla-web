@@ -11,7 +11,12 @@
     <?php include "navbar.php" ?>
 
     <!-- let the content begin -->
-    <div class="first"></div>
+    <div class="first container">
+      <h1> Zoznam prihlásených tímov </h1>
+      Tu môžeš zistiť, kto všetko sa chystá na Nôdľu, v akom tíme si ty (ak v žiadnom, tak odporúčame rýchlo nejaký zohnať).<br>
+      Tiež tu nájdeš ID tvojho tímu potrebné pri platbe účastníckeho poplatku a informáciu o tom, či už poplatok dorazil ku nám.
+      <hr>
+    </div>
 
     <?php
     if($_GET['registered'] == 1){

@@ -12,6 +12,7 @@
 
     <!-- let the content begin -->
     <div class="container first">
+      <h1>Pravidlá</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at risus iaculis, vulputate mauris vel, viverra libero. Praesent lectus mi, laoreet vitae gravida dapibus, finibus gravida nunc. Sed vitae nisi ac sem pulvinar scelerisque eget nec nunc. Sed cursus elit nec eleifend tempor. Duis sit amet facilisis elit. Suspendisse sit amet tincidunt ante. Duis viverra mattis ultricies.</p>
 
 <p>Maecenas et nisl condimentum libero bibendum ultricies ac maximus arcu. Mauris vehicula mattis urna et pharetra. In a sem vitae lacus porta dapibus. Phasellus a fermentum ante. Donec eget orci orci. Vivamus nec risus ac lectus euismod vestibulum vel vitae justo. Suspendisse rhoncus hendrerit vestibulum. Suspendisse sit amet aliquet leo. Aenean a aliquam leo.</p>

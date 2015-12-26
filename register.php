@@ -13,7 +13,8 @@
     <!-- let the content begin -->
 
     <div class="container first">
-      Tu sa môžeš prihlásiť!
+      <h1>Registrácia</h1>
+      Tu môžeš prihlásiť svoj tím na Nôdľu!
       <hr/>
     </div>
     <div class="container">
