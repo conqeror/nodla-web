@@ -42,14 +42,17 @@
     -->
 
     <h2>Ako riešiť šifry?</h2>
+
     <p>
+    <blockquote>Každá šifra je originálna. Treba sa zamyslieť.</blockquote>
     Kam teda? Šifra nie je kvízová otázka, ktorú buď viete alebo neviete zodpovedať. Šifru na prvý pohľad NEVIETE vyriešiť.
     Neexistuje ani databáza riešení. Každá šifra je originálna. Treba sa zamyslieť.
-    Nie je problém vymyslieť neriešiteľnú šifru. Tu je: fwuagughrkjs. My však chceme, aby šifra bola riešiteľná.
+    Nie je problém vymyslieť neriešiteľnú šifru. Tu je: <kbd>fwuagughrkjs</kbd>. My však chceme, aby šifra bola riešiteľná.
     A aby ste mali z nej zážitok. Budete mať zážitok z prvočíselného rozkladu obrovských čísiel? Asi nie. To je práca pre banky a počítače.
     Takú šifru vám nedáme.
     </p>
     <p>
+    <blockquote class="blockquote-reverse">Asi to nebude náhoda. Každý detail môže byť dôležitý.</blockquote>
     Od šifry teda treba očakávať, že bude nejakým spôsobom zaujímavá a pekná, a že bude jasné, že ste ju vyriešili správne.
     Dostali ste bagetu. Mohli by ste chcieť ísť do pekárne. Alebo do obchodu?
     Naozaj si myslíte, že rok vymýšľame šifrovačku kvôli tomu aby ste náhodne obiehali blízke prevádzky?
@@ -64,6 +67,7 @@
     Tieto náhody zväčša nie sú náhody. Správna odpoveď často vedie k riešeniu.
     </p>
     <p>
+    <blockquote>Čím skúsenejší hráč, tým viac si píše.</blockquote>
     My máme teraz bagetu. Čo s ňou?
     Môžete ju odvážiť a premerať, ale ochutnaniu sa asi nevyhnete. A zrazu zistíte, že je plnená.
     Vnútri sú nejaké zapečené guličky z cesta.
@@ -76,7 +80,7 @@
     Ahá, to nebude citrón, ale limetka! Toto je ukážka aj toho, že je fajn kontrolovať veci po sebe.
     </p>
     <p>
-    V skutočnej šifre by vám vyšlo miesto 'HESLO' napríklad 'HODZOVONAMFONTANA'. Hodžovo námestie, šifra bude pri fontáne. Hurá, môžete ísť :)
+    V skutočnej šifre by vám vyšlo miesto <kbd>HESLO</kbd> napríklad <kbd>HODZOVONAMFONTANA</kbd>. Hodžovo námestie, šifra bude pri fontáne. Hurá, môžete ísť :)
     Ani sa nenazdáte a na takejto šifre môžete stráviť hodinu, kým vám napadú všetky potrebné kroky :)
     Panikáriť a vzdávať sa po piatich minútach nie je na mieste.
     </p>
@@ -87,7 +91,7 @@
     </p>
 
     <p>
-    Šifrovačky zväčša používajú anglickú 26 znakovú abecedu a prevod medzi číslami a písmenami A=1, B=2, tj 8,5,19,12,15 = HESLO.
+    Šifrovačky zväčša používajú anglickú 26 znakovú abecedu a prevod medzi číslami a písmenami <kbd>A=1</kbd>, <kbd>B=2</kbd>, t. j. <kbd>8,5,19,12,15</kbd> je <kbd>HESLO</kbd>.
     Doporučujeme sa zoznámiť so šifrovacími pomôckami, ktoré sú medzi doporučeným vybavením na stránke s informáciami a pravidlami.
     Na šifrovačke síce takmer nikdy nenájdete morzeovku či braila v bežnej forme, ale existujú tisíce spôsobov, ako ich využiť skryto.
     Listnatý strom, ihličnan, trávnik? No predsa krátka, dlhá, oddeľovač :-) Netreba vedieť morzeovku naspamäť - tú máte v pomôckach.
