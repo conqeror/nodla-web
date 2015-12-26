@@ -9,6 +9,10 @@ $name=strip_tags($_POST['name']);
 $message=strip_tags($_POST['message']);
 $org=strip_tags($_POST['org']);
 
+if($name = ""){
+  $name = "Anonym";
+}
+
 // Validation will be added here
 
 if ($errorMessage != "" ) {
