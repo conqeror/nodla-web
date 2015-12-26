@@ -19,7 +19,7 @@
     </div>
 
     <?php
-    if($_GET['registered'] == 1){
+    if(isset($_GET['registered'])){
       echo '<div class="alert alert-success container" role="alert"> <span class="glyphicon glyphicon-ok-sign" aria-hidden="true"></span> Úspešne si prihlásil svoj tím!</div>';
       echo '<div class="alert alert-warning container" role="alert"> <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Na e-mail zadaný pri registrácií ti prišla správa s linkom na editovanie tímu a taktiež s informáciami o platbe.</div>';
     }
@@ -39,6 +39,7 @@
     <?php
     include "db_config.php";
     $link = mysqli_connect($db_host,$db_user,$db_password)  or die("failed to connect to server !!");
+    mysqli_set_charset($link, "utf8");
     mysqli_select_db($link,"nodla");
 
     $result = mysqli_query($link, "SELECT * FROM teams");

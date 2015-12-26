@@ -4,56 +4,27 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-}
+ 
 
-.header-image {
-    display: block;
-    width: 100%;
-    text-align: center;
-    background: url(../img/top.jpg) no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
-.headline {
-    padding: 120px 0;
-}
-
-.headline h1 {
-    font-size: 130px;
-    background: #fff;
-    background: rgba(255,255,255,0.8);
-}
-
-.headline h2 {
-    font-size: 40px;
-    background: #fff;
-    background: rgba(255,255,255,0.8);
-}
-
-.featurette-divider {
+ .featurette-divider {
     margin: 40px 0;
-}
+ }
 
-.featurette {
+ .featurette {
     overflow: hidden;
-}
+ }
 
-.featurette-image.pull-left {
+ .featurette-image.pull-left {
     margin-right: 40px;
-}
+ }
 
-.featurette-image.pull-right {
+ .featurette-image.pull-right {
     margin-left: 40px;
-}
+ }
 
-.featurette-heading {
+ .featurette-heading {
     font-size: 50px;
-}
+ }
 
 @media(max-width:1200px) {
     .headline h1 {

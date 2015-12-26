@@ -90,10 +90,17 @@
         	<input type="number" class="form-control" name="age4" id="age4">
         </div>
     </div>
+    <hr>
+    <div class="form-group">
+      <label for="special" class="col-sm-2">Máte nejaké špeciálne požiadavky na stravu?</label>
+      <div class="col-sm-6">
+        <textarea class="form-control" rows="5" name="special" id="special"></textarea>
+      </div>
+    </div>
 
     <div class="form-group">
         <div class="col-sm-offset-1 col-sm-11">
-            <button type="submit" class="btn btn-warning" name="submit" id="submit">Submit</button>
+            <button type="submit" class="btn btn-warning" name="submit" id="submit">Odoslať</button>
         </div>
     </div>
     </form>

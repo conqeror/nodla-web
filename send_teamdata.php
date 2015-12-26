@@ -17,7 +17,7 @@ $name3=strip_tags($_POST['player3']);
 $age3=$_POST['age3'];
 $name4=strip_tags($_POST['player4']);
 $age4=$_POST['age4'];
-
+$special=$_POST['special'];
 // Validation will be added here
 
 if ($errorMessage != "" ) {
@@ -27,9 +27,9 @@ else{
 //Inserting record in table using INSERT query
 $insqDbtb="INSERT INTO `nodla`.`teams`
 (`accessstring`, `teamname`, `email`, `phone`, `name1`, `age1`,
-`name2`, `age2`,`name3`, `age3`,`name4`, `age4`) VALUES ('$accessstring', '$teamname',
- '$email', '$phone', '$name1', '$age1', '$name2',
-  '$age2', '$name3', '$age3', '$name4', '$age4')";
+`name2`, `age2`,`name3`, `age3`,`name4`, `age4`) VALUES ('$accessstring', _utf8'$teamname',
+ '$email', '$phone', _utf8'$name1', '$age1', _utf8'$name2',
+  '$age2', _utf8'$name3', '$age3', _utf8'$name4', '$age4')";
 mysqli_query($link,$insqDbtb) or die(mysqli_error($link));
 
 $subject = 'Nôdľa ťa víta!';
