@@ -24,15 +24,16 @@
 }
 
 .headline h1 {
-    font-size: 100px;
+    font-size: 85px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(0,0,0,0.6);
 }
 
 .headline h2 {
-    font-size: 50px;
+    font-size: 45px;
     background: #fff;
-    background: rgba(255,255,255,0.9);
+    background: rgba(0,0,0,0.6);
+};
 }
 
  .featurette-divider {
