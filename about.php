@@ -32,7 +32,7 @@
     <p>
     Šifry sú všeliaké. Zväčša je to papier. S textom či s obrázkom. No niekedy to môže byť niečo úplne nečakané. Napríklad bageta.
     Vašou úlohou je zistiť, kam pokračovať ďalej. Nik iný vám to nepovie.
-    Ale nebojte sa, nenecháme vás umrznúť v lese :)
+    Ale nebojte sa, nenecháme vás umrznúť v lese :-)
     </p>
     <!--
     <p>
@@ -81,7 +81,7 @@
     </p>
     <p>
     V skutočnej šifre by vám vyšlo miesto <kbd>HESLO</kbd> napríklad <kbd>HODZOVONAMFONTANA</kbd>. Hodžovo námestie, šifra bude pri fontáne. Hurá, môžete ísť :)
-    Ani sa nenazdáte a na takejto šifre môžete stráviť hodinu, kým vám napadú všetky potrebné kroky :)
+    Ani sa nenazdáte a na takejto šifre môžete stráviť hodinu, kým vám napadú všetky potrebné kroky :-)
     Panikáriť a vzdávať sa po piatich minútach nie je na mieste.
     </p>
     <>TU VLOZ FOTKU MILKY S BAGETOU<>
