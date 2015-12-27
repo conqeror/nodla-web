@@ -119,7 +119,7 @@
     <div class="form-group">
       <label for="special" class="col-sm-2">Máte nejaké špeciálne požiadavky na stravu?</label>
       <div class="col-sm-6">
-        <textarea class="form-control" rows="5" name="special" id="special" value="$team[special]"></textarea>
+        <textarea class="form-control custom-control" name="special" id="special" rows="4" style="resize:none">$team[special]</textarea>
       </div>
     </div>
     <div class="form-group">
