@@ -44,13 +44,13 @@
       		<li>Úplní začiatočníci môžu prísť tiež, dajte nám vedieť a budeme k vám extra milí :-)</li></div>
             <div class="tab-pane fade" id="signup"><h2>Prihlasovanie a platba štartovného</h2>
             		<p>
-            		Prihlasovanie je otvorené do 14.2. (prihláška je ideálny Valentínsky darček ;-), prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
+            		<a href="register.php">Prihlasovanie</a> je otvorené do 14.2. (prihláška je ideálny Valentínsky darček ;-), prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
             		Čím skôr sa však prihlásite, tým lepšie pre nás - objednávame nejaké veci a neskoré prihlášky nám to komplikujú. Ďakujeme.
-            		Ak nemáš tím, daj nám vedieť a niečo vymyslíme.
+            		Ak nemáš tím, daj nám vedieť a niečo vymyslíme. Alebo rovno napíš do <a href="forum.php">fóra</a>.
             		</p>
 
                 <p>
-                    Spôsob platby čoskoro zverejníme. Cena bude pravdepodobne 12e na tím.
+                    Spôsob platby čoskoro zverejníme. Cena bude pravdepodobne 12&euro; na tím.
                 </p>
                 <p><b>Hry sa zúčastňujete na vlastnú zodpovednosť. Minimálny vek je preto 18 rokov.</b></p>
             </div>
@@ -141,6 +141,7 @@ $('.tab-pane a').click(function (event) {
         gotoHashTab(event.target.hash);
     }
 });
+</script>
 
 </body>
 

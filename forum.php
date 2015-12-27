@@ -19,8 +19,9 @@
     echo <<<EOT
     <div class="container first">
       <h1> Fórum </h1>
-      Ak máš nejaké otázky, toto je správne miesto, kde ich môžeš položiť.<br>
-      Tiež si tu môžeš zohnať chýbajúcich členov do tímu alebo kľudne nám len niečo pekné odkázať.
+      <p>Ak máš nejaké otázky, toto je správne miesto, kde ich môžeš položiť.<br>
+      Tiež si tu môžeš zohnať chýbajúcich členov do tímu alebo kľudne nám len niečo pekné odkázať.</p>
+      <p>Ak by si chcel napísať iba organizátorom, napíš na <a href="mailto:sifrovacka@gmail.com">sifrovacka@gmail.com</a></p>
       <hr>
       <form class="form-horizontal" id="send_message" role="form" action="send_forummessage.php" method="POST">
 

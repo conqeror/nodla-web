@@ -14,7 +14,10 @@
 
     <div class="container first">
       <h1>Registrácia</h1>
-      Tu môžeš prihlásiť svoj tím na Nôdľu!
+      <p>
+      Tu môžeš prihlásiť svoj tím na Nôdľu.<br>
+      Nezabudni si najprv prečítať <a href="rules.php">pravidlá</a>!
+      </p>
       <hr/>
     </div>
     <div class="container">
