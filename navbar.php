@@ -21,7 +21,7 @@
                         <a href="about.php">Čo je to?</a>
                     </li>
                     <li>
-                        <a href="rules.php">Pravidlá</a>
+                        <a href="rules.php">Info a Pravidlá</a>
                     </li>
                     <li>
                         <a href="register.php">Registrácia</a>

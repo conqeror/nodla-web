@@ -12,9 +12,9 @@
 
     <!-- let the content begin -->
     <div class="container first">
-<<<<<<< HEAD
-
-    <h1>Dôležité informácie a pravidlá</h1>
+    <h1>Informácie a pravidlá</h1>
+    <hr>
+    <div class="col-xs-12" style="height:30px;"></div>
         <!-- Navigation Buttons -->
         <div class="col-md-3">
           <ul class="nav nav-pills nav-stacked" id="myTabs">
@@ -28,18 +28,18 @@
         </div>
 
         <!-- Content -->
-        <div class="col-md-9">
+        <div class="col-md-8">
           <div class="tab-content">
-            <div class="tab-pane active" id="info"><h2>Informácie</h2>
-
-      		Štvrtý ročník šifrovacej hry Nôdľa sa uskutoční v sobotu 20. februára 2016.<br>
-      		Nôdľa bude prebiehať cez deň od 9:00 do 21:00. <br>
-      		Nôdľa bude v Bratislave a jej blízkom okolí. Dĺžka trasy je okolo 15km. Miesto štartu zverejníme v posledných informáciách.<br>
-      		Nôdľa je terénna šifrovačka. Akože fakt. Les, blato, voda, sneh. Cieľ je vo vykúrenom mieste a veľmi sa na vás tam tešíme :-)<br>
-      		Nôdľa je tímová hra, počet ľudí v tíme je maximálne 4.<br>
-      		Obtiažnosť šifier na Nôdli by nemala byť príliš veľká. Očakávame, že aj šikovné začiatočnícke tímy nezamrznú (v akomkoľvek význame) niekde na začiatku.<br>
-      		Napriek tomu aj skúsené tímy budú mať kopu zážitkov, viď šifry a fotky z minulého ročníka.<br>
-      		Úplní začiatočníci môžu prísť tiež, dajte nám vedieť a budeme k vám extra milí :-)<br></div>
+            <div class="tab-pane active" id="info"><h2>Dôležité informácie</h2>
+          <ul>
+      		<li>Štvrtý ročník šifrovacej hry Nôdľa sa uskutoční v <strong>sobotu 20. februára 2016.</strong></li>
+      		<li>Nôdľa bude prebiehať cez deň <strong>od 9:00 do 21:00</strong>. </li>
+      		<li>Nôdľa bude v Bratislave a jej blízkom okolí. Dĺžka trasy je okolo 15km. Miesto štartu zverejníme v posledných informáciách.</li>
+      		<li>Nôdľa je terénna šifrovačka. Akože fakt. Les, blato, voda, sneh. Cieľ je vo vykúrenom mieste a veľmi sa na vás tam tešíme :-)</li>
+      		<li>Nôdľa je tímová hra, počet ľudí v tíme je maximálne 4.</li>
+      		<li>Obtiažnosť šifier na Nôdli by nemala byť príliš veľká. Očakávame, že aj šikovné začiatočnícke tímy nezamrznú (v akomkoľvek význame) niekde na začiatku.</li>
+      		<li>Napriek tomu aj skúsené tímy budú mať kopu zážitkov, viď šifry a fotky z minulého ročníka.</li>
+      		<li>Úplní začiatočníci môžu prísť tiež, dajte nám vedieť a budeme k vám extra milí :-)</li></div>
             <div class="tab-pane" id="signup"><h2>Prihlasovanie a platba štartovného</h2>
             		<p>
             		Prihlasovanie je otvorené do 14.2. (prihláška je ideálny Valentínsky darček ;-), prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
@@ -103,7 +103,8 @@
                 </ul>
                 Zoznam sa môže ešte meniť s blížiacim sa dátumom hry :)
               </div>
-            <div class="tab-pane" id="lastinfo"><p>Čakajte, objavia sa neskôr na tomto mieste.</p>
+            <div class="tab-pane" id="lastinfo"><h2> Posledné informácie </h2>
+              <p>Čakajte, objavia sa neskôr na tomto mieste.</p>
             </div>
           </div>
         </div>
@@ -111,24 +112,35 @@
 
 
     <?php include "footer.php" ?>
-    <script type="text/javascript">
-    // Javascript to enable link to tab
-var hash = document.location.hash;
-var prefix = "tab_";
-if (hash) {
-    $('.nav-tabs a[href='+hash.replace(prefix,"")+']').tab('show');
-}
-
-// Change hash for page-reload
-$('.nav-tabs a').on('shown.bs.tab', function (e) {
-    window.location.hash = e.target.hash.replace("#", "#" + prefix);
-});
-    </script>
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script type='text/javascript'>
+    var gotoHashTab = function (customHash) {
+    var hash = customHash || location.hash;
+    var hashPieces = hash.split('?'),
+        activeTab = $('[href=' + hashPieces[0] + ']');
+        activeTab && activeTab.tab('show');
+    }
+
+// onready go to the tab requested in the page hash
+gotoHashTab();
+
+// when the nav item is selected update the page hash
+$('.nav a').on('shown', function (e) {
+    window.location.hash = e.target.hash;
+})
+
+// when a link within a tab is clicked, go to the tab requested
+$('.tab-pane a').click(function (event) {
+    if (event.target.hash) {
+        gotoHashTab(event.target.hash);
+    }
+});
+
+    </script>
 
 </body>
 
