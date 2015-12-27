@@ -10,6 +10,7 @@
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/sticky-footer.css" rel="stylesheet">
 <link rel="stylesheet" href="css/lightbox.css">
+<link href="css/custom.css" rel="stylesheet">
 
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->

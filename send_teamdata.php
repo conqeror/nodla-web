@@ -33,10 +33,13 @@ $insqDbtb="INSERT INTO `nodla`.`teams`
 mysqli_query($link,$insqDbtb) or die(mysqli_error($link));
 
 $subject = 'Nôdľa ťa víta!';
-$message = 'Práve si zaregistroval svoj tím na šifrovačku Nôdľa.
+$message = 'Ahoj!
+
+Práve si zaregistroval svoj tím na šifrovačku Nôdľa.
 Ak by si chcel editovať údaje o tíme, navštív tento link http://nodla.fks.sk/edit.php?as='
 . $accessstring . '
 
+Taktiež je potrebné uhradiť poplatok 12 eur na tím najneskôr do 14. 2. Platí sa na účet SK28 8360 5207 0042 0394 6590.
 Variabilné číslo pre platbu (rovnaké ako ID) je '.mysqli_insert_id($link).'.
 
 Tešíme sa na Vás!';
