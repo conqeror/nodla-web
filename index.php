@@ -31,7 +31,7 @@
 
       <!-- First Featurette -->
       <div class="featurette" id="about">
-          <img class="featurette-image img-circle img-responsive pull-right" alt="Palacinky" src="img/jedlo.jpg">
+          <a href="img/jedlo1.JPG" data-lightbox="index-img" data-title="Palacinka"><img class="featurette-image img-circle img-responsive pull-right" alt="Palacinky" src="img/jedlo.jpg"></a>
           <h2 class="featurette-heading">Šifrovačka,
               <span class="text-muted">z ktorej neodídete hladní.</span>
           </h2>
@@ -45,7 +45,7 @@
 
       <!-- Second Featurette -->
       <div class="featurette" id="services">
-          <img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg">
+          <a href="img/sneh1.jpg" data-lightbox="index-img" data-title="Brodenie sa snehom"><img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg"></a>
           <h2 class="featurette-heading">Šifrovačka,
               <span class="text-muted">kde sa budete brodiť snehom.</span>
           </h2>
@@ -58,7 +58,7 @@
 
       <!-- Third Featurette -->
       <div class="featurette" id="contact">
-          <img class="featurette-image img-circle img-responsive pull-right" alt="Cinovy prsten" src="img/sviecka.jpg">
+          <a href="img/sviecka1.jpg" data-lightbox="index-img" data-title="Prsteň s cínom"><img class="featurette-image img-circle img-responsive pull-right" alt="Cinovy prsten" src="img/sviecka.jpg"></a>
           <h2 class="featurette-heading">Šifrovačka,
               <span class="text-muted">na ktorej vám šifrovacie pomôcky nebudú stačiť.</span>
           </h2>
@@ -71,10 +71,10 @@
       <hr class="featurette-divider">
 
       <div class="featurette" id="begin">
-        <a class="btn btn-success btn-lg col-sm-offset-3" href="register.php">
+        <a class="btn btn-success btn-lg col-sm-offset-3" href="register.php" data-toggle="tooltip" data-placement="bottom" title="Mám tím a viem do čoho idem!">
             <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Chcem sa prihlásiť!
         </a>
-        <a class="btn btn-warning btn-lg col-sm-offset-1" href="about.php">
+        <a class="btn btn-warning btn-lg col-sm-offset-1" href="about.php" data-toggle="tooltip" data-placement="bottom" title="O čo sa tu vlastne jedná?">
             <span class="glyphicon glyphicon-question-sign" aria-hidden="true"></span> Chcem zistiť viac!
         </a>
       </div>
@@ -92,6 +92,12 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+    </script>
 
 </body>
 

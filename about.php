@@ -3,7 +3,6 @@
 
 <head>
     <?php include "head.php" ?>
-    <link rel="stylesheet" href="css/lightbox.css">
 </head>
 
 <body>
@@ -14,6 +13,7 @@
     <!-- let the content begin -->
     <div class="container">
     <h1>Čo je Nôdľa?</h1>
+    <div class="well well-sm">Ak si už skúsený šifrovač, pokračuj rovno na <a href="rules.php">stránku s pravidlami</a>.</div>
     <p>
     Nôdľa je tímová šifrovacia hra pre dospelých.
     Štvorčlenný tím sa stretne na štarte s nádejou, že o pár hodín neskôr práve im v cieli zagratulujeme k víťazstvu.
