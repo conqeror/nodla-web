@@ -3,6 +3,7 @@
 
 <head>
     <?php include "head.php" ?>
+    <link rel="stylesheet" href="css/lightbox.css">
 </head>
 
 <body>
@@ -66,8 +67,9 @@
     Prečo je obrázkov 26 - toľko, ako písmen anglickej abecedy, ktorá sa používa na šifrovačkách?
     Tieto náhody zväčša nie sú náhody. Správna odpoveď často vedie k riešeniu.
     </p>
-    <p>
+
     <blockquote>Čím skúsenejší hráč, tým viac si píše.</blockquote>
+    <p>
     My máme teraz bagetu. Čo s ňou?
     Môžete ju odvážiť a premerať, ale ochutnaniu sa asi nevyhnete. A zrazu zistíte, že je plnená.
     Vnútri sú nejaké zapečené guličky z cesta.
@@ -79,12 +81,13 @@
     Čo by sa dalo robiť s týmito slovami? No napríklad prečítať prvé písmená. HESCO. Hesco? Nebude to náhodou heslo?
     Ahá, to nebude citrón, ale limetka! Toto je ukážka aj toho, že je fajn kontrolovať veci po sebe.
     </p>
+  <div class="col-md-offset-4"><a class="example-image-link" href="img/milka.JPG" data-lightbox="example-1"><img class="img-thumbnail" src="img/milka_thumb.jpg" alt="image-1" /></a></div>
+
     <p>
     V skutočnej šifre by vám vyšlo miesto <kbd>HESLO</kbd> napríklad <kbd>HODZOVONAMFONTANA</kbd>. Hodžovo námestie, šifra bude pri fontáne. Hurá, môžete ísť :)
     Ani sa nenazdáte a na takejto šifre môžete stráviť hodinu, kým vám napadú všetky potrebné kroky :-)
     Panikáriť a vzdávať sa po piatich minútach nie je na mieste.
     </p>
-    <>TU VLOZ FOTKU MILKY S BAGETOU<>
     <p>
     Ak chcete potrénovať a pripraviť sa na hru, môžete si pozrieť napríklad stránky skvelej letnej Bratislavskej šifrovačky <a href="http://sifrovacka.sk/" target="_blank">Brieždenie</a>.
     Databáza množstva (českých) hier je <a href="http://kalendar.chlyftym.cz/" target="_blank">tu</a>.
@@ -97,8 +100,9 @@
     Listnatý strom, ihličnan, trávnik? No predsa krátka, dlhá, oddeľovač :-) Netreba vedieť morzeovku naspamäť - tú máte v pomôckach.
     Treba nájsť tú morzeovku skrytú v šifre.
     </p>
-
+    <p class="lead">
     Prajeme vám kopu zážitkov!
+    </p>
     <!--
     Matfyzáci, jazykovedci, klaviristi, orientační bežci, právnici. Je dobré mať rôznorodý tím, každý vie totiž čosi iné.
     K šifrovaniu netreba žiadne špeciálne vedomosti. Internet je predsa k dispozícii. Dôležité sú schopnosti.
@@ -114,7 +118,7 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <script src="js/lightbox.js"></script>
 </body>
 
 </html>

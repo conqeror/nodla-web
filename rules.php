@@ -17,18 +17,20 @@
     <div class="col-xs-12" style="height:30px;"></div>
         <!-- Navigation Buttons -->
         <div class="col-md-3">
-          <ul class="nav nav-pills nav-stacked" id="myTabs">
+          <ul class="affix nav nav-pills nav-stacked" id="myTabs">
             <li class="active"><a href="#info" data-toggle="pill">Dôležité informácie</a></li>
             <li><a href="#signup" data-toggle="pill">Prihlasovanie a platba</a></li>
             <li><a href="#rules" data-toggle="pill">Pravidlá</a></li>
             <li><a href="#points" data-toggle="pill">Bodovanie a nápovedy</a></li>
             <li><a href="#bring" data-toggle="pill">Čo si doniesť</a></li>
             <li><a href="#lastinfo" data-toggle="pill">Posledné informácie</a></li>
+            <hr>
+            <li><a href="#all" data-target="#info, #signup, #rules, #points, #bring, #lastinfo" data-toggle="pill">Zobraz všetko</a></li>
           </ul>
         </div>
 
         <!-- Content -->
-        <div class="col-md-8">
+        <div class="col-md-9">
           <div class="tab-content">
             <div class="tab-pane fade in active" id="info"><h2>Dôležité informácie</h2>
           <ul>
@@ -139,8 +141,6 @@ $('.tab-pane a').click(function (event) {
         gotoHashTab(event.target.hash);
     }
 });
-
-    </script>
 
 </body>
 
