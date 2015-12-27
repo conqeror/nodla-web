@@ -50,7 +50,7 @@
         	<input type="text" class="form-control" name="player1" required id="player1">
         </div>
         <label for="age1" class="col-sm-1">Vek</label>
-        <div class="col-sm-1">
+        <div class="col-sm-2">
         	<input type="number" class="form-control" name="age1" id="age1">
         </div>
     </div>
@@ -63,7 +63,7 @@
         	<input type="text" class="form-control" name="player2" required id="player2">
         </div>
         <label for="age2" class="col-sm-1">Vek</label>
-        <div class="col-sm-1">
+        <div class="col-sm-2">
         	<input type="number" class="form-control" name="age2" id="age2">
         </div>
     </div>
@@ -73,10 +73,10 @@
     <div class="form-group">
         <label for="player3" class="col-sm-offset-1 col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player3" required id="player3">
+        	<input type="text" class="form-control" name="player3" id="player3">
         </div>
         <label for="age3" class="col-sm-1">Vek</label>
-        <div class="col-sm-1">
+        <div class="col-sm-2">
         	<input type="number" class="form-control" name="age3" id="age3">
         </div>
     </div>
@@ -86,17 +86,17 @@
     <div class="form-group">
         <label for="player4" class="col-sm-offset-1 col-sm-1">Meno</label>
         <div class="col-sm-4">
-        	<input type="text" class="form-control" name="player4" required id="player4">
+        	<input type="text" class="form-control" name="player4"id="player4">
         </div>
         <label for="age4" class="col-sm-1">Vek</label>
-        <div class="col-sm-1">
+        <div class="col-sm-2">
         	<input type="number" class="form-control" name="age4" id="age4">
         </div>
     </div>
     <hr>
     <div class="form-group">
       <label for="special" class="col-sm-2">Máte nejaké špeciálne požiadavky na stravu?</label>
-      <div class="col-sm-6">
+      <div class="col-sm-7">
         <textarea class="form-control" rows="5" name="special" id="special"></textarea>
       </div>
     </div>
