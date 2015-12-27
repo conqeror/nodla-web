@@ -23,7 +23,7 @@
             <li><a href="#rules" data-toggle="pill">Pravidlá</a></li>
             <li><a href="#points" data-toggle="pill">Bodovanie a nápovedy</a></li>
             <li><a href="#bring" data-toggle="pill">Čo si doniesť</a></li>
-            <li><a href="#lastinfo" data-toggle="pill">Posledné info</a></li>
+            <li><a href="#lastinfo" data-toggle="pill">Posledné informácie</a></li>
           </ul>
         </div>
 
@@ -101,7 +101,7 @@
                     <!--<li>prázdnu (alebo plnenú vodou) fľašu s objemom 1l a viac</li>-->
                     <li>MHD lístky počas hry nepotrebujete (ak sa fakt veľmi nestratíte :-)</li>
                 </ul>
-                Zoznam sa môže ešte meniť s blížiacim sa dátumom hry :)
+                Zoznam sa môže ešte meniť s blížiacim sa dátumom hry :-)
               </div>
             <div class="tab-pane fade" id="lastinfo"><h2> Posledné informácie </h2>
               <p>Čakajte, objavia sa neskôr na tomto mieste.</p>
