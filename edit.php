@@ -47,13 +47,13 @@
 
     <div class="form-group">
     <label for="teamname" class="col-sm-2">Názov tímu</label>
-    <div class="col-sm-6">
+    <div class="col-sm-7">
       <input type="text" class="form-control" name="teamname" id="teamname" required value="$team[teamname]">
     </div>
     </div>
 
     <div class="form-group">
-        <label for="email" class="col-sm-1">e-mail</label>
+        <label for="email" class="col-sm-2">e-mail</label>
         <div class="col-sm-4">
         	<input type="email" class="form-control" name="email" id="email" required value="$team[email]">
         </div>
@@ -66,12 +66,12 @@
     <legend>1. člen</legend>
 
     <div class="form-group">
-        <label for="player1" class="col-sm-1">Meno</label>
+        <label for="player1" class="col-sm-2">Meno</label>
         <div class="col-sm-4">
         	<input type="text" class="form-control" name="player1" id="player1" required value="$team[name1]">
         </div>
         <label for="age1" class="col-sm-1">Vek</label>
-        <div class="col-sm-1">
+        <div class="col-sm-2">
         	<input type="number" class="form-control" name="age1" id="age1" value="$team[age1]">
         </div>
     </div>
@@ -79,12 +79,12 @@
     <legend>2. člen</legend>
 
     <div class="form-group">
-        <label for="player2" class="col-sm-1">Meno</label>
+        <label for="player2" class="col-sm-2">Meno</label>
         <div class="col-sm-4">
         	<input type="text" class="form-control" name="player2" id="player2" required value="$team[name2]">
         </div>
         <label for="age2" class="col-sm-1">Vek</label>
-        <div class="col-sm-1">
+        <div class="col-sm-2">
         	<input type="number" class="form-control" name="age2" id="age2" value="$team[age2]">
         </div>
     </div>
@@ -92,12 +92,12 @@
     <legend>3. člen</legend>
 
     <div class="form-group">
-        <label for="player3" class="col-sm-1">Meno</label>
+        <label for="player3" class="col-sm-2">Meno</label>
         <div class="col-sm-4">
         	<input type="text" class="form-control" name="player3" id="player3" required value="$team[name3]">
         </div>
         <label for="age3" class="col-sm-1">Vek</label>
-        <div class="col-sm-1">
+        <div class="col-sm-2">
         	<input type="number" class="form-control" name="age3" id="age3" value="$team[age3]">
         </div>
     </div>
@@ -105,12 +105,12 @@
     <legend>4. člen</legend>
 
     <div class="form-group">
-        <label for="player4" class="col-sm-1">Meno</label>
+        <label for="player4" class="col-sm-2">Meno</label>
         <div class="col-sm-4">
         	<input type="text" class="form-control" name="player4" id="player4" required value="$team[name4]">
         </div>
         <label for="age4" class="col-sm-1">Vek</label>
-        <div class="col-sm-1">
+        <div class="col-sm-2">
         	<input type="number" class="form-control" name="age4" id="age4" value="$team[age4]">
         </div>
     </div>
@@ -131,7 +131,7 @@
     </div>
 
     <div class="form-group">
-        <div class="col-sm-11">
+        <div class="col-sm-10 col-sm-offset-2">
             <button type="submit" class="btn btn-warning" name="submit" id="submit">Odoslať</button>
         </div>
     </div>
