@@ -3,6 +3,7 @@
 
 <head>
     <?php include "head.php" ?>
+    <title>Registrácia - Nôdľa</title>
 </head>
 
 <body>

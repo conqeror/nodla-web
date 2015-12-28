@@ -4,7 +4,7 @@
 <head>
 
     <?php include "head.php" ?>
-
+    <title>Šifrovačka Nôdľa</title>
     <!-- Custom CSS -->
     <link href="css/one-page-wonder.css" rel="stylesheet">
 
