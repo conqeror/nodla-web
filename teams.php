@@ -3,6 +3,7 @@
 
 <head>
     <?php include "head.php" ?>
+    <title>Tímy - Nôdľa</title>
 </head>
 
 <body>

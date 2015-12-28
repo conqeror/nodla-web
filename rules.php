@@ -3,6 +3,7 @@
 
 <head>
     <?php include "head.php" ?>
+    <title>Pravidlá - Nôdľa</title>
 </head>
 
 <body>

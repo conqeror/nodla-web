@@ -3,6 +3,7 @@
 
 <head>
     <?php include "head.php" ?>
+    <title>Editovať tím - Nôdľa</title>
 </head>
 
 <body>

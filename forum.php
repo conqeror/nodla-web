@@ -3,6 +3,7 @@
 
 <head>
     <?php include "head.php" ?>
+    <title>Fórum - Nôdľa</title>
 </head>
 
 <body>

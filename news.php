@@ -3,6 +3,7 @@
 
 <head>
     <?php include "head.php" ?>
+    <title>Aktuálne - Nôdľa</title>
     <style>
       .infonum{
         font-size: 40px;
