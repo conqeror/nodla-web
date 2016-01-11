@@ -88,7 +88,7 @@
             <div class="tab-pane fade" id="points"><h2>Bodovanie a nápovedy</h2>
                 <p>Vyhráva tím s najvyšším počtom bodov, v prípade rovnosti rozhoduje najvyššie navštívené stanovisko a čas jeho dosiahnutia. Za vyriešenie cieľovej aktivity je +1b.
                 Ku každej šifre existujú 2 nápovedy a totálka. Použitie jednej nápovedy je penalizované 0.5b, dvoch dokopy 0.75b. Tieto body sa strhnú len v prípade, že prídete na nasledujúce stanovisko.
-                Za regulárne vyriešenie šifry (aj s využitím nápoved) a príchod na nasledujúce stanovisko je +1b.
+                Za regulárne vyriešenie šifry (aj s využitím nápoved) a príchod na nasledujúce stanovisko je +1b. Body sa dajú získavať len počas trvania hry.
                 Šifru, na ktorej sa nachádzate, môžete preskočiť požiadaním o totálku, v tom prípade za príchod na nasledujúce stanovisko nezískate žiadne body ani sa nestrhne penalizácia za použité nápovedy - t.j. nápovedy sa vždy oplatia otvoriť pred totálkou.</p>
 
                 <p>Nápovedy a totálky si pýtajte od orga na stanovisku. V prípade, že stanovisko orga nemá, zavolajte na telefónne číslo uvedené v posledných informáciách alebo na štarte.</p>
