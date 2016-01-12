@@ -79,6 +79,7 @@
                     <li>V rámci tímu sa môžete deliť.</li>
                     <li>Počas hry sa môžete presúvať vlastnými nohami, bežkovať, plávať, sánkovať, lopárovať. Iné spôsoby dopravy vopred konzultujte s orgami.</li>
                     <li>Na rozdiel od minulých ročníkov, okrem cieľu netreba vstupovať do žiadnych budov ani bunkrov. Nebránime vám to, ale berte to ako vašu osobnú mimohernú činnosť :-)</li>
+                    <li>V NPR používajte vyznačené turistické chodníky.</li>
             	<li>Ak robíte niečo nebezpečné alebo nelegálne, tak ste asi niečo zle pochopili :-) Zamyslite sa znovu alebo nám zavolajte.</li>
                 </ul>
                 <p>
