@@ -21,7 +21,7 @@
     Spolu s nimi štartuje kopa (100-200) ďalších ľudí.
     Po polhodine od štartu sú.. ešte na štarte. Nevadí, sú tam aj ostatní. Nakoniec sa im podarí opustiť štart a vydajú sa do lesov.
     O pár hodín neskôr zistia, že asi nevyhrajú a ešte neskôr, že vlastne možno nestihnú prísť ani do cieľa. To však vôbec nevadí.
-    Šifrovacie hry sú totiž hlavne o zážitkoch z hry. A je to výzva a je skvelý pocit ju zdolať.
+    Šifrovacie hry sú totiž hlavne o zážitkoch z hry. A je to výzva a je skvelý pocit sa hry zúčasniť a zdolať aspoň pár šifier.
     </p>
     <p>
     Ale späť k hre. Na štarte dostanú šifru. Vyriešia šifru. Riešením je popis, kam majú ísť ďalej.
@@ -75,7 +75,7 @@
     Môžete ju odvážiť a premerať, ale ochutnaniu sa asi nevyhnete. A zrazu zistíte, že je plnená.
     Vnútri sú nejaké zapečené guličky z cesta.
     Tak ich predsa vyberte! Dávajte pozor, čo robíte. Ich poradie môže byť dôležité.
-    A ak nejakú stratíte alebo zjete, tak šifru asi ľahko nevyriešite... No dobre, máte očíslované pečené guličky. Čo s nimi?
+    A ak nejakú stratíte alebo zjete, tak šifru asi ľahko nevyriešite... No dobre, máte zoradené/očíslované pečené guličky. Čo s nimi?
     Áno, asi opäť ochutnať. Tá prvá chutí ako hrach? Fuj. Druhá.. sú to egreše? Tretia slivky? Štvrtá citrón. Piata oregano.
     A píše si to niekto na papier? Lebo len tak z hlavy to asi nevyriešite... Čím skúsenejší hráč, tým viac si píše.
     Na papieri majte toto: hrach, egreše, slivky, citrón, oregano. V správnom poradí!
@@ -99,7 +99,7 @@
     Doporučujeme sa zoznámiť so šifrovacími pomôckami, ktoré sú medzi doporučeným vybavením na stránke s informáciami a pravidlami.
     Na šifrovačke síce takmer nikdy nenájdete morzeovku či braila v bežnej forme, ale existujú tisíce spôsobov, ako ich využiť skryto.
     Listnatý strom, ihličnan, trávnik? No predsa krátka, dlhá, oddeľovač :-) Netreba vedieť morzeovku naspamäť - tú máte v pomôckach.
-    Treba nájsť tú morzeovku skrytú v šifre.
+    Treba vedieť nájsť tú morzeovku skrytú v šifre.
     </p>
     <p class="lead">
     Prajeme vám kopu zážitkov!
