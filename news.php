@@ -36,11 +36,9 @@
         $days_to_register = floor(($registrationend - time())/86400);
         echo <<<EOT
         <div class = "col-md-3">
-          <div class="affix">
             <div class="alert alert-success">Prihlásených je už<br><div class="infonum">$num_teams z $capacity</div>tímov.</div>
             <div class="alert alert-warning">Registrácia končí o<br><div class="infonum">$days_to_register</div>dní.</div>
             <div class="alert alert-success">Nôdľa začína o<br><div class="infonum">$days_to_start</div>dní.</div>
-          </div>
         </div>
 EOT;
 
