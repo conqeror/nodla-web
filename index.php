@@ -26,7 +26,7 @@
 
     <!-- Page Content -->
     <div class="container">
-
+      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">už 20. februára v Bratislave a okolí</h2></div>
       <hr class="featurette-divider">
 
       <!-- First Featurette -->
