@@ -13,8 +13,22 @@ if($name == ""){
   $name = "Anonym";
 }
 
-// Validation will be added here
+if(isset($_POST['g-recaptcha-response']))
+  $captcha=$_POST['g-recaptcha-response'];
 
+if(!$captcha){
+  header("Location: register.php");
+  exit;
+}
+// Validation will be added here
+$response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6Ldy4BMTAAAAAF-00vc28Q3cHai0nla5qnK61tWX&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
+if($response['success'] == false)
+{
+  header("Location: forum.php");
+  exit;
+}
+else
+{
 if ($errorMessage != "" ) {
 echo "<p class='message'>" .$errorMessage. "</p>" ;
 }
@@ -25,6 +39,7 @@ $insqDbtb="INSERT INTO `nodla`.`forum`
 mysqli_query($link,$insqDbtb) or die(mysqli_error($link));
 
 header("Location: forum.php");
+}
 }
 }
 ?>

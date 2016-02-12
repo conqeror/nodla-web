@@ -10,11 +10,28 @@
 
 
     <?php include "navbar.php" ?>
+    <?php include "competition_vars.php" ?>
 
     <!-- let the content begin -->
+    <?php
+    include "db_config.php";
+    $link = mysqli_connect($db_host,$db_user,$db_password)  or die("failed to connect to server !!");
+    mysqli_select_db($link,"nodla");
+    $counter = mysqli_query($link, "SELECT COUNT(*) AS id FROM teams WHERE attend=1");
+    $num = mysqli_fetch_array($counter);
+    $num_teams = $num["id"];
+    $full_capacity_message = "";
+    $disabled = "";
+    if($num_teams == $capacity){
+      $full_capacity_message = '<div class="alert alert-danger container" role="alert"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span> Bohužiaľ, kapacita tohtoročnej Nôdle už bola vyčerpaná. Budeme radi, keď prídeš budúci rok :-)</div>';
+      $disabled = "disabled";
+    }
+
+    echo <<<EOT
 
     <div class="container first">
       <h1>Registrácia</h1>
+      $full_capacity_message
       <p>
       Tu môžeš prihlásiť svoj tím na Nôdľu.<br>
       Nezabudni si najprv prečítať <a href="rules.php">pravidlá</a>!
@@ -101,15 +118,22 @@
         <textarea class="form-control" rows="5" name="special" id="special"></textarea>
       </div>
     </div>
+    <hr>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-11">
+              <div class="g-recaptcha" data-sitekey="6Ldy4BMTAAAAAAlutft4j_Li-5uU14MbETE_nbxQ"></div>
+        </div>
+    </div>
 
     <div class="form-group">
         <div class="col-sm-offset-2 col-sm-11">
-            <button type="submit" class="btn btn-warning" name="submit" id="submit">Odoslať</button>
+            <button type="submit" class="btn btn-warning" name="submit" id="submit" $disabled>Odoslať</button>
         </div>
     </div>
     </form>
     </div>
-
+EOT;
+?>
 
     <?php include "footer.php" ?>
     <!-- jQuery -->

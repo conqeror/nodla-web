@@ -47,7 +47,7 @@
       <div class="featurette" id="services">
           <a href="img/sneh1.jpg" data-lightbox="index-img" data-title="Brodenie sa snehom"><img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg"></a>
           <h2 class="featurette-heading">Šifrovačka,
-              <span class="text-muted">kde sa budete brodiť snehom.</span>
+              <span class="text-muted" data-toggle="tooltip" data-placement="top" title="Tak asi nie, sorry."><strike>kde sa budete brodiť snehom</strike>.</span>
           </h2>
           <p class="lead">Štatistika za posledné tri ročníky: dvakrát sneh a raz blato. Môžme len dúfať, že tento rok sa počasie vydarí.
           Veď čo je lepšie ako šifrovačka v polmetrovom snehu?

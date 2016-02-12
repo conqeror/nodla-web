@@ -18,7 +18,7 @@
     <div class="col-xs-12" style="height:30px;"></div>
         <!-- Navigation Buttons -->
         <div class="col-md-3">
-          <ul class="affix nav nav-pills nav-stacked" id="myTabs">
+          <ul class="nav nav-pills nav-stacked" id="myTabs">
             <li class="active"><a href="#info" data-toggle="pill">Dôležité informácie</a></li>
             <li><a href="#signup" data-toggle="pill">Prihlasovanie a platba</a></li>
             <li><a href="#rules" data-toggle="pill">Pravidlá</a></li>

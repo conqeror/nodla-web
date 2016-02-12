@@ -34,11 +34,32 @@
         include "competition_vars.php";
         $days_to_start = floor(($competitionstart - time())/86400);
         $days_to_register = floor(($registrationend - time())/86400);
+        $alertregister = "alert-success";
+        $alertstart = "alert-success";
+        $alertcap = "alert-success";
+        if($days_to_register <= 3){
+          $alertregister = "alert-danger";
+        }
+        if($days_to_register <= 7){
+          $alertregister = "alert-warning";
+        }
+        if($days_to_start <= 3){
+          $alertstart = "alert-danger";
+        }
+        if($days_to_start <= 7){
+          $alertstart = "alert-warning";
+        }
+        if($num_teams > 0.7*$capacity){
+          $alertcap = "alert-warning";
+        }
+        if($num_teams > 0.9*$capacity){
+          $alertcap = "alert-danger";
+        }
         echo <<<EOT
         <div class = "col-md-3">
-            <div class="alert alert-success">Prihlásených je už<br><div class="infonum">$num_teams z $capacity</div>tímov.</div>
-            <div class="alert alert-warning">Registrácia končí o<br><div class="infonum">$days_to_register</div>dní.</div>
-            <div class="alert alert-success">Nôdľa začína o<br><div class="infonum">$days_to_start</div>dní.</div>
+            <div class="alert $alertstart">Prihlásených je už<br><div class="infonum">$num_teams z $capacity</div>tímov.</div>
+            <div class="alert $alertregister">Registrácia končí o<br><div class="infonum">$days_to_register</div>dní.</div>
+            <div class="alert $alertcap">Nôdľa začína o<br><div class="infonum">$days_to_start</div>dní.</div>
         </div>
 EOT;
 

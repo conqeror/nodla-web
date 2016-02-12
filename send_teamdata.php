@@ -18,8 +18,22 @@ $age3=$_POST['age3'];
 $name4=strip_tags($_POST['player4']);
 $age4=$_POST['age4'];
 $special=$_POST['special'];
-// Validation will be added here
+if(isset($_POST['g-recaptcha-response']))
+  $captcha=$_POST['g-recaptcha-response'];
 
+if(!$captcha){
+  header("Location: register.php");
+  exit;
+}
+// Validation will be added here
+$response=json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=6Ldy4BMTAAAAAF-00vc28Q3cHai0nla5qnK61tWX&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
+if($response['success'] == false)
+{
+  header("Location: register.php");
+  exit;
+}
+else
+{
 if ($errorMessage != "" ) {
 echo "<p class='message'>" .$errorMessage. "</p>" ;
 }
@@ -49,6 +63,7 @@ $headers = 'From: samo@fks.sk' . "\r\n" .
 
 mail($email, $subject, $message, $headers);
 header("Location: teams.php?registered=1");
+}
 }
 }
 ?>

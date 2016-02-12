@@ -41,6 +41,13 @@
           </div>
         </div>
 
+        
+        <div class="form-group">
+            <div class="col-sm-offset-1 col-sm-11">
+                  <div class="g-recaptcha" data-sitekey="6Ldy4BMTAAAAAAlutft4j_Li-5uU14MbETE_nbxQ"></div>
+            </div>
+        </div>
+
         <div class="form-group">
           <div class="col-sm-offset-1 col-sm-11">
               <input type="hidden" name="org" id="org" value=$org>
