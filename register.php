@@ -22,8 +22,8 @@
     $num_teams = $num["id"];
     $full_capacity_message = "";
     $disabled = "";
-    if($num_teams == $capacity){
-      $full_capacity_message = '<div class="alert alert-danger container" role="alert"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span> Bohužiaľ, kapacita tohtoročnej Nôdle už bola vyčerpaná. Budeme radi, keď prídeš budúci rok :-)</div>';
+    if($num_teams >= $capacity){
+      $full_capacity_message = '<div class="alert alert-danger container" role="alert"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span> Bohužiaľ, kapacita tohtoročnej Nôdle už bola vyčerpaná. Ak máte záujem, napíšte nám email s registračným info a dohodneme sa, čo s vami.</div>';
       $disabled = "disabled";
     }
 
