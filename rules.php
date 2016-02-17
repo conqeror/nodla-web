@@ -103,13 +103,31 @@
                     <li>rozumné šifrovacie pomôcky, doporučujeme napríklad tie od <a href="http://chlyftym.cz/web/pomucky" target="_blank">Chlýftýmu</a></li>
                     <li>nožnice, lepiace pásky, eurobaly, fixky, zvýrazňovačky,...</li>
                     <li>pohárik</li>
-                    <!--<li>prázdnu (alebo plnenú vodou) fľašu s objemom 1l a viac</li>-->
                     <li>MHD lístky počas hry nepotrebujete (ak sa fakt veľmi nestratíte :-)</li>
                 </ul>
                 Zoznam sa môže ešte meniť s blížiacim sa dátumom hry :-)
               </div>
             <div class="tab-pane fade" id="lastinfo"><h2> Posledné informácie </h2>
-              <p>Čakajte, objavia sa neskôr na tomto mieste.</p>
+
+            Začiatok hry je v sobotu o 9:00.
+            Registrácia prebieha v čase 8:00-8:45 tu 48.1743722N, 16.9764869E (pod Devínskym hradom, pri sútoku).
+
+Vzhľadom na množstvo prihlásených tímov doporučujeme spoj č. 28 s príchodom už 7:41 na zastávku Devín. 
+Do neskoršieho autobusu s príchodom o 8:11 sa pravdepodobne všetci nezmestíte a tímy, 
+ktoré prídu až o 8:44 zrejme nemusia stihnúť registráciu a začiatok štartovnej aktivity.
+<br><br>
+Povinná výbava je uvedená na stránke. Okrem toho si doneste fľašu s min. 1 litrom čistej vody (nepoužívať počas hry na pitie :-)
+<br>
+<br>
+Možno sa zíde dáždnik. Možno bude pršať.<br>
+Nezabudnite teplé oblečenie. Možno bude zima.<br>
+Nezabudnite čelovky. Tma bude určite. <br>
+<br><br>
+            Bežky a sánky výrazne nedoporučujeme, ale je to povolený spôsob presunov.
+<br><br>
+            Ak nemáte ešte zaplatené (viď stránka) tak nás kontaktujte, aká je vaša situácia - či už ste platili a ešte to nedošlo, alebo čo sa stalo. 
+            S tímami bez zaplateného alebo ináč dohodnutého poplatku nerátame.
+ 
             </div>
           </div>
         </div>
