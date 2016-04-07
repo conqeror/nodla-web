@@ -1,0 +1,1 @@
+Sú tri možnosti. 1) Stačí rovno prečítať riešenie. 2) Zistíme princíp, pekne ho vidno na 15. písmenku E: horizontálne čiary sú zmenené na kružnice, vertikálne sú uhlové výseky. Ide teda deformáciu v polárnych súradniciach. 3) Použijeme lesklé / kovové pero. Hrot zapichneme do stredu polárnej sústavy a v zrkadlovom odraze čítame normálne písmená.
