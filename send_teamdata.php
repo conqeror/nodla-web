@@ -50,7 +50,7 @@ $subject = 'Nôdľa ťa víta!';
 $message = 'Ahoj!
 
 Práve si zaregistroval svoj tím na šifrovačku Nôdľa.
-Ak by si chcel editovať údaje o tíme, navštív tento link http://nodla.fks.sk/edit.php?as='
+Ak by si chcel editovať údaje o tíme, navštív tento link http://nodla.sk/edit.php?as='
 . $accessstring . '
 
 Taktiež je potrebné uhradiť poplatok 12 eur na tím najneskôr do 14. 2. Platí sa na účet SK28 8360 5207 0042 0394 6590.
@@ -61,7 +61,7 @@ $headers = 'From: samo@fks.sk' . "\r\n" .
     'Reply-To: samo@fks.sk' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
 
-mail($email, $subject, $message, $headers);
+mail($email, $subject, $message);
 header("Location: teams.php?registered=1");
 }
 }
