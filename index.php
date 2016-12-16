@@ -19,14 +19,14 @@
         <div class="headline">
             <div class="container">
                 <h1>Nôdľa</h1>
-                <h2>jediná zimná šifrovačka na Slovensku</h2>
+                <h2>zimná terénna denná šifrovačka pri Bratislave</h2>
             </div>
         </div>
     </header>
 
     <!-- Page Content -->
     <div class="container">
-      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">už 20. februára v Bratislave a okolí</h2></div>
+      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">piaty ročník prebehne v sobotu 4. marca v Bratislave a okolí</h2></div>
       <hr class="featurette-divider">
 
       <!-- First Featurette -->
@@ -49,7 +49,7 @@
           <h2 class="featurette-heading">Šifrovačka,
               <span class="text-muted" data-toggle="tooltip" data-placement="top" title="Tak asi nie, sorry."><strike>kde sa budete brodiť snehom</strike>.</span>
           </h2>
-          <p class="lead">Štatistika za posledné tri ročníky: dvakrát sneh a raz blato. Môžme len dúfať, že tento rok sa počasie vydarí.
+          <p class="lead">Štatistika za posledné štyri ročníky: dvakrát sneh, raz blato a raz aj aj. Môžme len dúfať, že tento rok sa počasie vydarí.
           Veď čo je lepšie ako šifrovačka v polmetrovom snehu?
           </p>
       </div>
