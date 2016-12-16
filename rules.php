@@ -8,7 +8,6 @@
 
 <body>
 
-
     <?php include "navbar.php" ?>
 
     <!-- let the content begin -->
@@ -35,23 +34,23 @@
           <div class="tab-content">
             <div class="tab-pane fade in active" id="info"><h2>Dôležité informácie</h2>
           <ul>
-      		<li>Štvrtý ročník šifrovacej hry Nôdľa sa uskutoční v <strong>sobotu 20. februára 2016.</strong></li>
-      		<li>Nôdľa bude prebiehať cez deň <strong>od 9:00 do 21:00</strong>. </li>
+      		<li>Piaty ročník šifrovacej hry Nôdľa sa uskutoční v <strong>sobotu 4. marca 2016.</strong></li>
+      		<li>Nôdľa bude prebiehať cez deň <strong>od 9:00 do 20:00</strong>. </li>
       		<li>Nôdľa bude v Bratislave a jej blízkom okolí. Dĺžka trasy je okolo 15km. Miesto štartu zverejníme v posledných informáciách.</li>
-      		<li>Nôdľa je terénna šifrovačka. Akože fakt. Les, blato, voda, sneh. Cieľ je vo vykúrenom mieste a veľmi sa na vás tam tešíme :-)</li>
+      		<li>Nôdľa je terénna šifrovačka. Akože fakt. Les, blato, voda, sneh. Cieľ býva vo vykúrenom mieste a veľmi sa na vás tam tešíme :-)</li>
       		<li>Nôdľa je tímová hra, počet ľudí v tíme je maximálne 4.</li>
       		<li>Obtiažnosť šifier na Nôdli by nemala byť príliš veľká. Očakávame, že aj šikovné začiatočnícke tímy nezamrznú (v akomkoľvek význame) niekde na začiatku.</li>
       		<li>Napriek tomu aj skúsené tímy budú mať kopu zážitkov, viď šifry a fotky z minulého ročníka.</li>
       		<li>Úplní začiatočníci môžu prísť tiež, dajte nám vedieť a budeme k vám extra milí :-)</li></div>
             <div class="tab-pane fade" id="signup"><h2>Prihlasovanie a platba štartovného</h2>
             		<p>
-            		<a href="register.php">Prihlasovanie</a> je otvorené do 14.2. (prihláška je ideálny Valentínsky darček ;-), prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
-            		Čím skôr sa však prihlásite, tým lepšie pre nás - objednávame nejaké veci a neskoré prihlášky nám to komplikujú. Ďakujeme.
+            		<a href="register.php">Prihlasovanie</a> je otvorené do 26.2., prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
+            		Čím skôr sa však prihlásite, tým lepšie sa nám hra pripravuje. Ďakujeme.
             		Ak nemáš tím, daj nám vedieť a niečo vymyslíme. Alebo rovno napíš do <a href="forum.php">fóra</a>.
             		</p>
 
                 <p>
-                    Po prihlásení je potrebné uhradiť poplatok 12&euro; na tím najneskôr do 14. 2. Platí sa na účet SK28 8360 5207 0042 0394 6590. Pri platbe uveďťe ID vášho tímu ako variabilný
+                    Po prihlásení je potrebné uhradiť poplatok 12&euro; na tím najneskôr do 27. 2. Platí sa na účet SK28 8360 5207 0042 0394 6590. Pri platbe uveďťe ID vášho tímu ako variabilný
                     symbol. Tieto informácie vám zašleme aj e-mailom po registrácií. Ak by ste mali problém uhradiť tento poplatok prevodom na účet (ak ste napríklad z Česka), ozvite sa nám.
                 </p>
                 <p><b>Hry sa zúčastňujete na vlastnú zodpovednosť. Minimálny vek je preto 18 rokov.</b></p>
@@ -102,7 +101,7 @@
                     <li>buzola nie je povinná, ale hodí sa</li>
                     <li>rozumné šifrovacie pomôcky, doporučujeme napríklad tie od <a href="http://chlyftym.cz/web/pomucky" target="_blank">Chlýftýmu</a></li>
                     <li>nožnice, lepiace pásky, eurobaly, fixky, zvýrazňovačky,...</li>
-                    <li>pohárik</li>
+                    <!--<li>pohárik</li>-->
                     <li>MHD lístky počas hry nepotrebujete (ak sa fakt veľmi nestratíte :-)</li>
                 </ul>
                 Zoznam sa môže ešte meniť s blížiacim sa dátumom hry :-)
@@ -110,7 +109,7 @@
             <div class="tab-pane fade" id="lastinfo"><h2> Posledné informácie </h2>
 
             Začiatok hry je v sobotu o 9:00.
-            Registrácia prebieha v čase 8:00-8:45 tu 48.1743722N, 16.9764869E (pod Devínskym hradom, pri sútoku).
+            <!--Registrácia prebieha v čase 8:00-8:45 tu 48.1743722N, 16.9764869E (pod Devínskym hradom, pri sútoku).
 
 Vzhľadom na množstvo prihlásených tímov doporučujeme spoj č. 28 s príchodom už 7:41 na zastávku Devín. 
 Do neskoršieho autobusu s príchodom o 8:11 sa pravdepodobne všetci nezmestíte a tímy, 
@@ -127,7 +126,7 @@ Nezabudnite čelovky. Tma bude určite. <br>
 <br><br>
             Ak nemáte ešte zaplatené (viď stránka) tak nás kontaktujte, aká je vaša situácia - či už ste platili a ešte to nedošlo, alebo čo sa stalo. 
             S tímami bez zaplateného alebo ináč dohodnutého poplatku nerátame.
- 
+ -->
             </div>
           </div>
         </div>
