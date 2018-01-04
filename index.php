@@ -45,7 +45,7 @@
 
       <!-- Second Featurette -->
       <div class="featurette" id="services">
-          <a href="img/sneh1.jpg" data-lightbox="index-img" data-title="Brodenie sa snehom"><img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg"></a>
+          <a href="img/sneh.jpg" data-lightbox="index-img" data-title="Brodenie sa snehom"><img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg"></a>
           <h2 class="featurette-heading">Šifrovačka,
               <span class="text-muted" data-toggle="tooltip" data-placement="top" title="Tak asi nie, sorry."><strike>kde sa budete brodiť snehom</strike>.</span>
           </h2>
@@ -58,7 +58,7 @@
 
       <!-- Third Featurette -->
       <div class="featurette" id="contact">
-          <a href="img/sviecka1.jpg" data-lightbox="index-img" data-title="Prsteň s cínom"><img class="featurette-image img-circle img-responsive pull-right" alt="Cinovy prsten" src="img/sviecka.jpg"></a>
+          <a href="img/sviecka.jpg" data-lightbox="index-img" data-title="Prsteň s cínom"><img class="featurette-image img-circle img-responsive pull-right" alt="Cinovy prsten" src="img/sviecka.jpg"></a>
           <h2 class="featurette-heading">Šifrovačka,
               <span class="text-muted">na ktorej vám šifrovacie pomôcky nebudú stačiť.</span>
           </h2>
