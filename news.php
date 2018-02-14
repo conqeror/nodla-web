@@ -32,7 +32,6 @@
         $num = mysqli_fetch_array($counter);
         $num_teams = $num["id"];
         include "competition_vars.php";
-        error.log($days_to_start)
         $days_to_start = floor(($competition_start - time())/86400);
         $days_to_register = floor(($registration_end - time())/86400);
         $alertregister = "alert-success";
