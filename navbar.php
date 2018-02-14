@@ -18,10 +18,10 @@
                         <a href="news.php">Aktuality</a>
                     </li>
                     <li>
-                        <a href="results.php">Výsledky</a>
+                        <a href="results.php">Výsledky z minula</a>
                     </li>
                     <li>
-                        <a href="ciphers.php">Šifry</a>
+                        <a href="ciphers.php">Šifry z minula</a>
                     </li>
                     <li>
                         <a href="about.php">Čo je to?</a>

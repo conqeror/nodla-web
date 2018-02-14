@@ -12,7 +12,7 @@
 
     <!-- let the content begin -->
     <div class="container">
-    <h1>Šifry</h1>
+    <h1>Šifry z minula</h1>
     <?php
     for($i = 0; $i <= 11; $i++){
     $riesenie = file_get_contents("sifry/$i/text.txt", FILE_USE_INCLUDE_PATH);

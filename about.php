@@ -8,27 +8,30 @@
 
 <body>
 
-
     <?php include "navbar.php" ?>
 
     <!-- let the content begin -->
     <div class="container">
     <h1>Čo je Nôdľa?</h1>
-    <div class="well well-sm">Ak si už skúsený šifrovač, pokračuj rovno na <a href="rules.php">stránku s pravidlami</a>.</div>
+    <div class="well well-sm">Ak hľadáš len pravidlá, nájdeš ich <a href="rules.php">tu</a>.</div>
     <p>
     Nôdľa je tímová šifrovacia hra pre dospelých.
     Štvorčlenný tím sa stretne na štarte s nádejou, že o pár hodín neskôr práve im v cieli zagratulujeme k víťazstvu.
     Spolu s nimi štartuje kopa (100-200) ďalších ľudí.
     Po polhodine od štartu sú.. ešte na štarte. Nevadí, sú tam aj ostatní. Nakoniec sa im podarí opustiť štart a vydajú sa do lesov.
     O pár hodín neskôr zistia, že asi nevyhrajú a ešte neskôr, že vlastne možno nestihnú prísť ani do cieľa. To však vôbec nevadí.
-    Šifrovacie hry sú totiž hlavne o zážitkoch z hry. A je to výzva a je skvelý pocit sa hry zúčasniť a zdolať aspoň pár šifier.
+    Šifrovacie hry sú totiž hlavne o zážitkoch z hry. A je to výzva a je skvelý pocit sa hry zúčasniť a zdolať aspoň pár šifier. 
+    </p><p>
+    My organizátori sa poznažíme, aby tých šifier a pekných zážitkov bolo čo najviac.
     </p>
     <p>
     Ale späť k hre. Na štarte dostanú šifru. Vyriešia šifru. Riešením je popis, kam majú ísť ďalej.
     Tam nájdu ďalšiu šifru. Opäť vyriešia. A tak ďalej. Šifier je približne 11. Vyzerá to ľahko? Nie je!
-    To by predsa nebol zážitok, keby na obed už boli všetky tímy v cieli. Treba prekonať dve prekážky. Fyzickú.
-    Prejsť 15km za 12h nie je veľa, ale netreba zabúdať, že je to po teréne, je zima, tím sa môže stratiť,
-    môže sa brodiť snehom a večer bude tma.
+    To by predsa nebol zážitok, keby o polnoci už boli všetky tímy v cieli. Treba prekonať dve prekážky.
+    </p><p>
+    Fyzickú. Prejsť 15-20km za 18h nie je veľa, ale netreba zabúdať, že je to po teréne, potme, v chlade, v hmle, v hustníku... 
+    Niekedy aj organizátori bývajú prekvapení, kade a kam sa účastníci vyberú.
+    </p><p>
     A psychickú. Šifry nie sú ľahké. Ani príliš ťažké. Sú také, aby vás potrápili a mali ste dobrý pocit z ich vyriešenia.
     </p>
     <p>
@@ -36,21 +39,20 @@
     Vašou úlohou je zistiť, kam pokračovať ďalej. Nik iný vám to nepovie.
     Ale nebojte sa, nenecháme vás umrznúť v lese :-)
     </p>
-    <!--
+
     <p>
-    Nôdľu organizujú ľudia z tímu Ešte sa dohodneme, ktorý sa rád zúčastňuje podobných akcií hlavne v ČR.
+    Nôdľu organizujú prevažne ľudia z tímu Ešte sa dohodneme, ktorý sa rád zúčastňuje podobných akcií hlavne v ČR.
     Ak chcete vidieť, ako to vyzerá na štarte legendárnej TMOU, tu je <a href="https://www.youtube.com/watch?v=z6Fcw-7zlnA" target="_blank">motivačné video</a>.
     </p>
-    -->
 
     <h2>Ako riešiť šifry?</h2>
 
     <p>
     <blockquote>Každá šifra je originálna. Treba sa zamyslieť.</blockquote>
-    Kam teda? Šifra nie je kvízová otázka, ktorú buď viete alebo neviete zodpovedať. Šifru na prvý pohľad NEVIETE vyriešiť.
+    Kam teda? Šifra nie je kvízová otázka, ktorú buď viete alebo neviete zodpovedať. Šifru na prvý pohľad NEVIETE vyriešiť. 
     Neexistuje ani databáza riešení. Každá šifra je originálna. Treba sa zamyslieť.
     Nie je problém vymyslieť neriešiteľnú šifru. Tu je: <kbd>fwuagughrkjs</kbd>. My však chceme, aby šifra bola riešiteľná.
-    A aby ste mali z nej zážitok. Budete mať zážitok z prvočíselného rozkladu obrovských čísiel? Asi nie. To je práca pre banky a počítače.
+    A aby ste mali z nej zážitok. Budete mať zážitok z prvočíselného rozkladu obrovských čísiel? Asi nie. To je práca pre počítače.
     Takú šifru vám nedáme.
     </p>
     <p>
@@ -90,8 +92,9 @@
     Panikáriť a vzdávať sa po piatich minútach nie je na mieste.
     </p>
     <p>
-    Ak chcete potrénovať a pripraviť sa na hru, môžete si pozrieť napríklad stránky skvelej letnej Bratislavskej šifrovačky <a href="http://sifrovacka.sk/" target="_blank">Brieždenie</a>.
-    Databáza množstva (českých) hier je <a href="http://kalendar.chlyftym.cz/" target="_blank">tu</a>.
+    Ak chcete potrénovať a pripraviť sa na hru, môžete si pozrieť napríklad šifry z minulého ročníka
+    alebo stránky skvelej letnej Bratislavskej šifrovačky <a href="http://sifrovacka.sk/" target="_blank">Brieždenie</a>.
+    Databáza množstva (českých) hier je <a href="http://sifrovacky.cz/" target="_blank">tu</a>.
     </p>
 
     <p>
@@ -104,13 +107,7 @@
     <p class="lead">
     Prajeme vám kopu zážitkov!
     </p>
-    <!--
-    Matfyzáci, jazykovedci, klaviristi, orientační bežci, právnici. Je dobré mať rôznorodý tím, každý vie totiž čosi iné.
-    K šifrovaniu netreba žiadne špeciálne vedomosti. Internet je predsa k dispozícii. Dôležité sú schopnosti.
-    Je fajn, keď niekto vie pracovať s mapou, niekto udrží morálku v tíme, niekto sa nevzdá, ani keď sa nedarí,
-    niekto prichádza s bláznivými nápadmi.
-    </p>
-    -->
+
   </div>
 
     <?php include "footer.php" ?>

@@ -34,23 +34,23 @@
           <div class="tab-content">
             <div class="tab-pane fade in active" id="info"><h2>Dôležité informácie</h2>
           <ul>
-      		<li>Piaty ročník šifrovacej hry Nôdľa sa uskutoční v <strong>sobotu 4. marca 2016.</strong></li>
-      		<li>Nôdľa bude prebiehať cez deň <strong>od 9:00 do 20:00</strong>. </li>
-      		<li>Nôdľa bude v Bratislave a jej blízkom okolí. Dĺžka trasy je okolo 15km. Miesto štartu zverejníme v posledných informáciách.</li>
-      		<li>Nôdľa je terénna šifrovačka. Akože fakt. Les, blato, voda, sneh. Cieľ býva vo vykúrenom mieste a veľmi sa na vás tam tešíme :-)</li>
+      		<li>Piaty ročník šifrovacej hry Nôdľa sa uskutoční v <strong>noci z piatka na sobotu 27.-28. apríla 2018.</strong></li>
+      		<li>Nôdľa bude prebiehať <strong>od 18:00 do 12:00</strong>. </li>
+      		<li>Nôdľa bude v Bratislave a jej blízkom okolí. Dĺžka trasy je okolo 15-20km. Miesto štartu zverejníme v posledných informáciách.</li>
+      		<li>Nôdľa je terénna šifrovačka. Cieľ bude vo vykúrenom mieste a veľmi sa na vás tam tešíme :-)</li>
       		<li>Nôdľa je tímová hra, počet ľudí v tíme je maximálne 4.</li>
-      		<li>Obtiažnosť šifier na Nôdli by nemala byť príliš veľká. Očakávame, že aj šikovné začiatočnícke tímy nezamrznú (v akomkoľvek význame) niekde na začiatku.</li>
+      		<li>Obtiažnosť šifier na Nôdli by nemala byť príliš veľká. Očakávame, že vďaka systému nápoved si to užijú aj začiatočnícke tímy.</li>
       		<li>Napriek tomu aj skúsené tímy budú mať kopu zážitkov, viď šifry a fotky z minulého ročníka.</li>
       		<li>Úplní začiatočníci môžu prísť tiež, dajte nám vedieť a budeme k vám extra milí :-)</li></div>
             <div class="tab-pane fade" id="signup"><h2>Prihlasovanie a platba štartovného</h2>
             		<p>
-            		<a href="register.php">Prihlasovanie</a> je otvorené do 26.2., prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
+            		<a href="register.php">Prihlasovanie</a> je otvorené do 23.4., prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
             		Čím skôr sa však prihlásite, tým lepšie sa nám hra pripravuje. Ďakujeme.
             		Ak nemáš tím, daj nám vedieť a niečo vymyslíme. Alebo rovno napíš do <a href="forum.php">fóra</a>.
             		</p>
 
                 <p>
-                    Po prihlásení je potrebné uhradiť poplatok 12&euro; na tím najneskôr do 27. 2. Platí sa na účet SK28 8360 5207 0042 0394 6590. Pri platbe uveďťe ID vášho tímu ako variabilný
+                    Po prihlásení je potrebné uhradiť poplatok 12&euro; na tím najneskôr do 23.4. Platí sa na účet SK28 8360 5207 0042 0394 6590. Pri platbe uveďťe ID vášho tímu ako variabilný
                     symbol. Tieto informácie vám zašleme aj e-mailom po registrácií. Ak by ste mali problém uhradiť tento poplatok prevodom na účet (ak ste napríklad z Česka), ozvite sa nám.
                 </p>
                 <p><b>Hry sa zúčastňujete na vlastnú zodpovednosť. Minimálny vek je preto 18 rokov.</b></p>
@@ -64,28 +64,24 @@
                     otvárač na konzervy, navigáciu GPS a pýtať sa (faktografické) otázky nesúťažiacich ľudí
                     - napríklad zavolať svojej babičke, že kedy sa sadia zemiaky.</li>
                     <li>Zo stanoviska si môžete zobrať 2 kópie zadania (väčšinou viditeľne oddelené na 1 papieri A4), ak nie je uvedené ináč.</li>
-                    <li>Stanoviská netreba držať v tajnosti, naopak, budeme radi, ak si navzájom pomôžete
-                    s dohľadávaním stanovísk: "ahojte, áno, stanovisko je pri tamtom dube".
-                    Pozor však na civilistov.</li>
-                    <li>Udržiavajte odstup od iných lúštacich tímov. Môžete riešiť aj v blízkosti stanoviska -
-                    (napríklad ak prší, tak sa kľudne ukryte pod striešku, kde sú zadania) -
-                    ale v tom prípade príchodzím tímom zadania distribuujte..</li>
+                    <li>ZMENA: Stanoviská udržujte v tajnosti. Po vyzdvihnutí zadania sa vzdiaľte aspoň 20m.</li>
+                    <li>Udržiavajte odstup od iných lúštacich tímov.</li>
                     <li>Ak máte podozrenie, že stanovisko chýba, alebo ak predčasne dochádzajú zadania kontaktujte orgov.</li>
                     <li>Ak neviete nájsť stanovisko, tiež nám zavolajte. Cieľom Nôdľe nie je hodinové prehľadávanie lesa.</li>
                     <li>Dve nasledujúce stanoviská sú vzdialené maximálne 2km vzdušnou čiarou.</li>
-                    <li>Sledovať iné tímy pri presune okrem dohľadávania stanoviska je zakázané.</li>
+                    <li>Sledovať iné tímy pri presune je zakázané.</li>
                     <li>Bez vyriešenia šifry je príchod na stanovisko inej šifry zakázaný.</li>
                     <li>V rámci tímu sa môžete deliť.</li>
-                    <li>Počas hry sa môžete presúvať vlastnými nohami, bežkovať, plávať, sánkovať, lopárovať. Iné spôsoby dopravy vopred konzultujte s orgami.</li>
-                    <li>Na rozdiel od minulých ročníkov, okrem cieľu netreba vstupovať do žiadnych budov ani bunkrov. Nebránime vám to, ale berte to ako vašu osobnú mimohernú činnosť :-)</li>
+                    <li>Počas hry sa môžete presúvať vlastnými nohami, bežkovať či plávať. Iné spôsoby dopravy vopred konzultujte s orgami.</li>
                     <li>V NPR používajte vyznačené turistické chodníky.</li>
-            	<li>Ak robíte niečo nebezpečné alebo nelegálne, tak ste asi niečo zle pochopili :-) Zamyslite sa znovu alebo nám zavolajte.</li>
+            	<li>Ak robíte niečo nebezpečné alebo nelegálne, tak ste asi niečo zle pochopili a prestaňte s tým. Zamyslite sa znovu alebo nám pre istotu zavolajte.</li>
                 </ul>
                 <p>
                 V prípade, že sa rozhodnete hru predčasne ukončiť, kontaktujte nás.
                 Jednak chceme mať prehľad, kto kde je, dvak bola by škoda, keby ste to vzdali tesne pred nejakým skvelým stanoviskom, no nie?
                 </p></div>
             <div class="tab-pane fade" id="points"><h2>Bodovanie a nápovedy</h2>
+	    <!--
                 <p>Vyhráva tím s najvyšším počtom bodov, v prípade rovnosti rozhoduje najvyššie navštívené stanovisko a čas jeho dosiahnutia. Za vyriešenie cieľovej aktivity je +1b.
                 Ku každej šifre existujú 2 nápovedy a totálka. Použitie jednej nápovedy je penalizované 0.5b, dvoch dokopy 0.75b. Tieto body sa strhnú len v prípade, že prídete na nasledujúce stanovisko.
                 Za regulárne vyriešenie šifry (aj s využitím nápoved) a príchod na nasledujúce stanovisko je +1b. Body sa dajú získavať len počas trvania hry.
@@ -93,23 +89,24 @@
 
                 <p>Nápovedy a totálky si pýtajte od orga na stanovisku. V prípade, že stanovisko orga nemá, zavolajte na telefónne číslo uvedené v posledných informáciách alebo na štarte.</p>
               </div>
+	      -->
             <div class="tab-pane fade" id="bring"><h2>Čo si doniesť</h2>
                 <ul>
-                    <li>potrebnú mapu dostanete na štarte, vlastné turistické a online mapy sa môžu hodiť, ale používate ich na vlastnú zodpovednosť</li>
+                    <li>potrebnú mapu dostanete na štarte, vlastné turistické a online mapy sa môžu hodiť, ale nemusí tam byť všetko...</li>
                     <li>čelovky - bude tma</li>
-                    <li>nabitý mobil s číslom uvedeným v prihláške</li>
+                    <li>nabitý mobil s číslom uvedeným v prihláške pre potreby SMS systému</li>
                     <li>buzola nie je povinná, ale hodí sa</li>
                     <li>rozumné šifrovacie pomôcky, doporučujeme napríklad tie od <a href="http://chlyftym.cz/web/pomucky" target="_blank">Chlýftýmu</a></li>
                     <li>nožnice, lepiace pásky, eurobaly, fixky, zvýrazňovačky,...</li>
-                    <!--<li>pohárik</li>-->
                     <li>MHD lístky počas hry nepotrebujete (ak sa fakt veľmi nestratíte :-)</li>
                 </ul>
                 Zoznam sa môže ešte meniť s blížiacim sa dátumom hry :-)
               </div>
             <div class="tab-pane fade" id="lastinfo"><h2> Posledné informácie </h2>
-
+	    Budú tu.
+  <!--
             Začiatok hry je v sobotu o 9:00.
-            <!--Registrácia prebieha v čase 8:00-8:45 tu 48.1743722N, 16.9764869E (pod Devínskym hradom, pri sútoku).
+          Registrácia prebieha v čase 8:00-8:45 tu 48.1743722N, 16.9764869E (pod Devínskym hradom, pri sútoku).
 
 Vzhľadom na množstvo prihlásených tímov doporučujeme spoj č. 28 s príchodom už 7:41 na zastávku Devín. 
 Do neskoršieho autobusu s príchodom o 8:11 sa pravdepodobne všetci nezmestíte a tímy, 

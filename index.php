@@ -19,14 +19,14 @@
         <div class="headline">
             <div class="container">
                 <h1>Nôdľa</h1>
-                <h2>zimná terénna denná šifrovačka pri Bratislave</h2>
+                <h2>terénna nočná šifrovačka pri Bratislave</h2>
             </div>
         </div>
     </header>
 
     <!-- Page Content -->
     <div class="container">
-      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">piaty ročník prebehne v sobotu 4. marca v Bratislave a okolí</h2></div>
+      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">piaty ročník prebehne v noci z piatka na sobotu 27.-28. apríla v Bratislave a okolí</h2></div>
       <hr class="featurette-divider">
 
       <!-- First Featurette -->
@@ -47,10 +47,9 @@
       <div class="featurette" id="services">
           <a href="img/sneh.jpg" data-lightbox="index-img" data-title="Brodenie sa snehom"><img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg"></a>
           <h2 class="featurette-heading">Šifrovačka,
-              <span class="text-muted" data-toggle="tooltip" data-placement="top" title="Tak asi nie, sorry."><strike>kde sa budete brodiť snehom</strike>.</span>
+              <span class="text-muted" data-toggle="tooltip" data-placement="top" title="Tak asi nie, sorry."><strike>kde sa budete brodiť snehom</strike>. Nie, dúfame, že nie, posunuli sme to na apríl :-)</span>
           </h2>
-          <p class="lead">Štatistika za posledné štyri ročníky: dvakrát sneh, raz blato a raz aj aj. Môžme len dúfať, že tento rok sa počasie vydarí.
-          Veď čo je lepšie ako šifrovačka v polmetrovom snehu?
+          <p class="lead">Štatistika za posledné štyri ročníky: dvakrát sneh, raz blato a raz aj aj. Tentoraz sa na vás miesto februárového snehu teší aprílové počasie.
           </p>
       </div>
 
