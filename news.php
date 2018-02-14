@@ -79,7 +79,7 @@ EOT;
 
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">\032<span style="float:right;">$fdate</span></h3>
+              <h3 class="panel-title">&nbsp<span style="float:right;">$fdate</span></h3>
             </div>
               <div class="panel-body">
                 $mes
