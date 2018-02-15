@@ -113,7 +113,7 @@
     </div>
     <hr>
     <div class="form-group">
-      <label for="special" class="col-sm-2">Máte nejaké špeciálne požiadavky na stravu?</label>
+      <label for="special" class="col-sm-2">Poznámka: tešíte sa? Boli ste už na šifrovačke? Aké je vaše obľúbené jedlo? Chcete nám niečo napísať?</label>
       <div class="col-sm-7">
         <textarea class="form-control" rows="5" name="special" id="special"></textarea>
       </div>
