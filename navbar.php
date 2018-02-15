@@ -18,17 +18,19 @@
                         <a href="news.php">Aktuality</a>
                     </li>
                     <li>
-                        <a href="results.php">Výsledky z minula</a>
-                    </li>
-                    <li>
-                        <a href="ciphers.php">Šifry z minula</a>
-                    </li>
-                    <li>
                         <a href="about.php">Čo je to?</a>
                     </li>
                     <li>
                         <a href="rules.php">Info a Pravidlá</a>
                     </li>
+		    
+		<li>
+                        <a href="ciphers.php">Šifry z minula</a>
+                    </li>
+		<li>
+                        <a href="results.php">Výsledky z minula</a>
+                    </li>
+		    
                     <li>
                         <a href="register.php">Registrácia</a>
                     </li>
