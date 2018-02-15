@@ -41,7 +41,11 @@
       		<li>Nôdľa je tímová hra, počet ľudí v tíme je maximálne 4.</li>
       		<li>Obtiažnosť šifier na Nôdli by nemala byť príliš veľká. Očakávame, že vďaka systému nápoved si to užijú aj začiatočnícke tímy.</li>
       		<li>Napriek tomu aj skúsené tímy budú mať kopu zážitkov, viď šifry a fotky z minulého ročníka.</li>
-      		<li>Úplní začiatočníci môžu prísť tiež, dajte nám vedieť a budeme k vám extra milí :-)</li></div>
+      		<li>Úplní začiatočníci môžu prísť tiež, dajte nám vedieť a budeme k vám extra milí :-)</li>
+	</ul>	
+	</div>
+		
+		
             <div class="tab-pane fade" id="signup"><h2>Prihlasovanie a platba štartovného</h2>
             		<p>
             		<a href="register.php">Prihlasovanie</a> je otvorené do 23.4., prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
@@ -55,6 +59,7 @@
                 </p>
                 <p><b>Hry sa zúčastňujete na vlastnú zodpovednosť. Minimálny vek je preto 18 rokov.</b></p>
             </div>
+	    
             <div class="tab-pane fade" id="rules"><h2>Pravidlá</h2>
                 <p>V princípe platia bežné šifrovačkové pravidlá. Tu je zopár pravidiel,
                 ktoré chceme zdôrazniť alebo sa mierne líšia od iných šifrovačiek.</p>
@@ -81,6 +86,7 @@
                 Jednak chceme mať prehľad, kto kde je, dvak bola by škoda, keby ste to vzdali tesne pred nejakým skvelým stanoviskom, no nie?
                 </p></div>
             <div class="tab-pane fade" id="points"><h2>Bodovanie a nápovedy</h2>
+	    Čoskoro zverejníme.
 	    <!--
                 <p>Vyhráva tím s najvyšším počtom bodov, v prípade rovnosti rozhoduje najvyššie navštívené stanovisko a čas jeho dosiahnutia. Za vyriešenie cieľovej aktivity je +1b.
                 Ku každej šifre existujú 2 nápovedy a totálka. Použitie jednej nápovedy je penalizované 0.5b, dvoch dokopy 0.75b. Tieto body sa strhnú len v prípade, že prídete na nasledujúce stanovisko.
@@ -88,8 +94,9 @@
                 Šifru, na ktorej sa nachádzate, môžete preskočiť požiadaním o totálku, v tom prípade za príchod na nasledujúce stanovisko nezískate žiadne body ani sa nestrhne penalizácia za použité nápovedy - t.j. nápovedy sa vždy oplatia otvoriť pred totálkou.</p>
 
                 <p>Nápovedy a totálky si pýtajte od orga na stanovisku. V prípade, že stanovisko orga nemá, zavolajte na telefónne číslo uvedené v posledných informáciách alebo na štarte.</p>
+		  -->
               </div>
-	      -->
+	    
             <div class="tab-pane fade" id="bring"><h2>Čo si doniesť</h2>
                 <ul>
                     <li>potrebnú mapu dostanete na štarte, vlastné turistické a online mapy sa môžu hodiť, ale nemusí tam byť všetko...</li>
