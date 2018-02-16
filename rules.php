@@ -54,8 +54,7 @@
             		</p>
 
                 <p>
-                    Po prihlásení je potrebné uhradiť poplatok 12&euro; na tím najneskôr do 23.4. Platí sa na účet SK28 8360 5207 0042 0394 6590. Pri platbe uveďťe ID vášho tímu ako variabilný
-                    symbol. Tieto informácie vám zašleme aj e-mailom po registrácií. Ak by ste mali problém uhradiť tento poplatok prevodom na účet (ak ste napríklad z Česka), ozvite sa nám.
+		Po prihlásení je potrebné uhradiť poplatok 12&euro; na tím najneskôr do 23.4. na účet SK28 8360 5207 0042 0394 6590. Pri platbe uveďťe ID vášho tímu ako variabilný symbol. Tieto informácie vám zašleme aj e-mailom po registrácií. Ak by ste mali problém uhradiť tento poplatok prevodom na účet (napríklad české tímy), ozvite sa nám.
                 </p>
                 <p><b>Hry sa zúčastňujete na vlastnú zodpovednosť. Minimálny vek je preto 18 rokov.</b></p>
             </div>

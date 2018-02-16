@@ -26,7 +26,7 @@
 
     <!-- Page Content -->
     <div class="container">
-      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">5. ročník prebehne v noci z piatka na sobotu 27.-28. apríla pri Bratislave</h2></div>
+      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">5. ročník prebehne v noci 27.-28. apríla pri Bratislave</h2></div>
       <hr class="featurette-divider">
 
       <!-- First Featurette -->
