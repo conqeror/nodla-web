@@ -1,5 +1,5 @@
 <?php
-$competitionstart = strtotime("February 20, 2016 9:00 AM");
-$registrationend = strtotime("February 14, 2016 12:00 PM");
+$competition_start = strtotime("April 27, 2018 6:00 PM");
+$registration_end = strtotime("April 23, 2018 12:00 PM");
 $capacity = 40;
 ?>

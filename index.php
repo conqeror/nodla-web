@@ -19,44 +19,17 @@
         <div class="headline">
             <div class="container">
                 <h1>Nôdľa</h1>
-                <h2>zimná terénna denná šifrovačka pri Bratislave</h2>
+                <h2>terénna nočná šifrovačka pri Bratislave</h2>
             </div>
         </div>
     </header>
 
     <!-- Page Content -->
     <div class="container">
-      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">piaty ročník prebehne v sobotu 4. marca v Bratislave a okolí</h2></div>
+      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">5. ročník prebehne v noci 27.-28. apríla pri Bratislave</h2></div>
       <hr class="featurette-divider">
 
       <!-- First Featurette -->
-      <div class="featurette" id="about">
-          <a href="img/jedlo1.JPG" data-lightbox="index-img" data-title="Palacinka"><img class="featurette-image img-circle img-responsive pull-right" alt="Palacinky" src="img/jedlo.jpg"></a>
-          <h2 class="featurette-heading">Šifrovačka,
-              <span class="text-muted">z ktorej neodídete hladní.</span>
-          </h2>
-          <p class="lead">Organizátori tejto šifrovačky majú šifrovačov tak radi, že ich zatiaľ každý rok
-          na aspoň jednom stanovišti kŕmili teplým jedlom. Bude tomu tak aj tento rok? Na aké špeciality
-          sa môžete tešiť?
-          </p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- Second Featurette -->
-      <div class="featurette" id="services">
-          <a href="img/sneh.jpg" data-lightbox="index-img" data-title="Brodenie sa snehom"><img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg"></a>
-          <h2 class="featurette-heading">Šifrovačka,
-              <span class="text-muted" data-toggle="tooltip" data-placement="top" title="Tak asi nie, sorry."><strike>kde sa budete brodiť snehom</strike>.</span>
-          </h2>
-          <p class="lead">Štatistika za posledné štyri ročníky: dvakrát sneh, raz blato a raz aj aj. Môžme len dúfať, že tento rok sa počasie vydarí.
-          Veď čo je lepšie ako šifrovačka v polmetrovom snehu?
-          </p>
-      </div>
-
-      <hr class="featurette-divider">
-
-      <!-- Third Featurette -->
       <div class="featurette" id="contact">
           <a href="img/sviecka.jpg" data-lightbox="index-img" data-title="Prsteň s cínom"><img class="featurette-image img-circle img-responsive pull-right" alt="Cinovy prsten" src="img/sviecka.jpg"></a>
           <h2 class="featurette-heading">Šifrovačka,
@@ -65,6 +38,32 @@
           <p class="lead">Myslíte si, že sa stačí naučiť základné šifrovacie princípy a potom bude Nôdľa pre vás
           prechádzka ružovou záhradou? Tak na to zabudnite! V minulých ročníkoch ste si mohli vyskúšať tavenie cínu,
           čítanie polystyrénového harddisku a kopu ďalších netradičných aktivít.
+          </p>
+      </div>
+      
+      <hr class="featurette-divider">
+
+      <!-- Second Featurette -->
+      <div class="featurette" id="services">
+          <a href="img/sneh.jpg" data-lightbox="index-img" data-title="Brodenie sa snehom"><img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg"></a>
+          <h2 class="featurette-heading">Šifrovačka,
+              <span class="text-muted" data-toggle="tooltip" data-placement="top" title="Tak asi nie, sorry."><strike>kde sa budete brodiť snehom</strike>. Dúfame, že nie, posunuli sme to na apríl :-)</span>
+          </h2>
+          <p class="lead">Tentoraz sa na vás miesto februárového snehu teší aprílové počasie.
+          </p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- Third Featurette -->
+	      <div class="featurette" id="about">
+          <a href="img/jedlo1.JPG" data-lightbox="index-img" data-title="Palacinka"><img class="featurette-image img-circle img-responsive pull-right" alt="Palacinky" src="img/jedlo.jpg"></a>
+          <h2 class="featurette-heading">Šifrovačka,
+              <span class="text-muted">z ktorej neodídete hladní.</span>
+          </h2>
+          <p class="lead">Organizátori tejto šifrovačky majú šifrovačov tak radi, že ich zatiaľ každý rok
+          na aspoň jednom stanovišti kŕmili teplým jedlom. Bude tomu tak aj tento rok? Na aké špeciality
+          sa môžete tešiť?
           </p>
       </div>
 

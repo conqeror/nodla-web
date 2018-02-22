@@ -32,8 +32,8 @@
         $num = mysqli_fetch_array($counter);
         $num_teams = $num["id"];
         include "competition_vars.php";
-        $days_to_start = floor(($competitionstart - time())/86400);
-        $days_to_register = floor(($registrationend - time())/86400);
+        $days_to_start = floor(($competition_start - time())/86400);
+        $days_to_register = floor(($registration_end - time())/86400);
         $alertregister = "alert-success";
         $alertstart = "alert-success";
         $alertcap = "alert-success";
@@ -79,7 +79,7 @@ EOT;
 
           <div class="panel panel-default">
             <div class="panel-heading">
-              <h3 class="panel-title">\032<span style="float:right;">$fdate</span></h3>
+              <h3 class="panel-title">&nbsp<span style="float:right;">$fdate</span></h3>
             </div>
               <div class="panel-body">
                 $mes
