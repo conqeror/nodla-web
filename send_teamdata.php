@@ -53,7 +53,7 @@ Práve si zaregistroval svoj tím na šifrovačku Nôdľa.
 Ak by si chcel editovať údaje o tíme, navštív tento link http://nodla.sk/edit.php?as='
 . $accessstring . '
 
-Taktiež je potrebné uhradiť poplatok 12 eur na tím najneskôr do 24. 4. Platí sa na účet SK28 8360 5207 0042 0394 6590.
+Taktiež je potrebné uhradiť poplatok 15 eur na tím najneskôr do 24. 4. Platí sa na účet SK28 8360 5207 0042 0394 6590.
 Variabilné číslo pre platbu (rovnaké ako ID) je '.mysqli_insert_id($link).'.
 
 Tešíme sa na Vás!';
