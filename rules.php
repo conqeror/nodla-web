@@ -34,11 +34,11 @@
           <div class="tab-content">
             <div class="tab-pane fade in active" id="info"><h2>Dôležité informácie</h2>
           <ul>
-      		<li>Piaty ročník šifrovacej hry Nôdľa sa uskutoční v <strong>noci z piatka na sobotu 27.-28. apríla 2018.</strong></li>
+      		<li>Piaty ročník šifrovacej hry Nôdľa sa uskutoční v <strong>noci z piatka na sobotu 4.-5. mája 2018.</strong></li>
       		<li>Nôdľa bude prebiehať <strong>od 18:00 do 12:00</strong>. </li>
       		<li>Nôdľa bude v Bratislave a jej blízkom okolí. Dĺžka trasy je okolo 15-20km. Miesto štartu zverejníme v posledných informáciách.</li>
       		<li>Nôdľa je terénna šifrovačka. Cieľ bude vo vykúrenom mieste a veľmi sa na vás tam tešíme :-)</li>
-      		<li>Nôdľa je tímová hra, počet ľudí v tíme je maximálne 4.</li>
+      		<li>Nôdľa je tímová hra, počet ľudí v tíme je maximálne 4. Tento počet je doporučený.</li>
       		<li>Obtiažnosť šifier na Nôdli by nemala byť príliš veľká. Očakávame, že vďaka systému nápoved si to užijú aj začiatočnícke tímy.</li>
       		<li>Napriek tomu aj skúsené tímy budú mať kopu zážitkov, viď šifry a fotky z minulého ročníka.</li>
       		<li>Úplní začiatočníci môžu prísť tiež, dajte nám vedieť a budeme k vám extra milí :-)</li>
