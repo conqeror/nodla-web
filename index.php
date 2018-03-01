@@ -26,7 +26,7 @@
 
     <!-- Page Content -->
     <div class="container">
-      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">5. ročník prebehne v noci 27.-28. apríla pri Bratislave</h2></div>
+      <div style="padding-top:20px; padding-bottom:20px;"><h2 style="text-align:center;">5. ročník prebehne v noci 4.-5. mája pri Bratislave</h2></div>
       <hr class="featurette-divider">
 
       <!-- First Featurette -->
@@ -47,9 +47,9 @@
       <div class="featurette" id="services">
           <a href="img/sneh.jpg" data-lightbox="index-img" data-title="Brodenie sa snehom"><img class="featurette-image img-circle img-responsive pull-left" alt="Cesta v snehu" src="img/sneh.jpg"></a>
           <h2 class="featurette-heading">Šifrovačka,
-              <span class="text-muted" data-toggle="tooltip" data-placement="top" title="Tak asi nie, sorry."><strike>kde sa budete brodiť snehom</strike>. Dúfame, že nie, posunuli sme to na apríl :-)</span>
+              <span class="text-muted" data-toggle="tooltip" data-placement="top" title="Tak asi nie, sorry."><strike>kde sa budete brodiť snehom</strike>. Dúfame, že nie, posunuli sme to na máj :-)</span>
           </h2>
-          <p class="lead">Tentoraz sa na vás miesto februárového snehu teší aprílové počasie.
+          <p class="lead">Tentoraz sa na vás miesto februárového snehu teší májová noc.
           </p>
       </div>
 
