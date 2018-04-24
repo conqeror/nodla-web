@@ -48,7 +48,7 @@
 		
             <div class="tab-pane fade" id="signup"><h2>Prihlasovanie a platba štartovného</h2>
             		<p>
-            		<a href="register.php">Prihlasovanie</a> je otvorené do 23.4., prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
+            		<a href="register.php">Prihlasovanie</a> je otvorené do 30.4., prihlasovanie po tomto termíne je možné po konzultácii s organizátormi.
             		Čím skôr sa však prihlásite, tým lepšie sa nám hra pripravuje. Ďakujeme.
             		Ak nemáš tím, daj nám vedieť a niečo vymyslíme. Alebo rovno napíš do <a href="forum.php">fóra</a>.
             		</p>
