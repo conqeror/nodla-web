@@ -1,7 +1,6 @@
 <?php
 include "db_config.php";
-$link = mysqli_connect($db_host,$db_user,$db_password)  or die("failed to connect to server !!");
-mysqli_select_db($link,"nodla");
+$pdo = new PDO($db_host, $db_user, $db_password);
 if(isset($_REQUEST['submit']))
 {
 $errorMessage = "";
@@ -33,10 +32,14 @@ if ($errorMessage != "" ) {
 echo "<p class='message'>" .$errorMessage. "</p>" ;
 }
 else{
-//Inserting record in table using INSERT query
-$insqDbtb="INSERT INTO `nodla`.`forum`
-(`name`, `message`, `org`) VALUES (_utf8'$name', _utf8'$message', '$org')";
-mysqli_query($link,$insqDbtb) or die(mysqli_error($link));
+$sql = "INSERT INTO forum
+(name, message, org) VALUES (:name, :message, :org)";
+
+$stmt = $pdo->prepare($sql);
+$stmt->bindValue(":name", $name);
+$stmt->bindValue(":message", $message);
+$stmt->bindValue(":org", $org);
+$stmt->execute();
 
 header("Location: forum.php");
 }

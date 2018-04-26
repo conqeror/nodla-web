@@ -24,13 +24,9 @@
       <hr>
       <?php
         include "db_config.php";
-        $link = mysqli_connect($db_host,$db_user,$db_password)  or die("failed to connect to server !!");
-        mysqli_set_charset($link, "utf8");
-        mysqli_select_db($link,"nodla");
+        $pdo = new PDO($db_host, $db_user, $db_password);
+        $num_teams = $pdo->query("SELECT COUNT(*) AS id FROM teams WHERE attend=1")->fetchColumn();
 
-        $counter = mysqli_query($link, "SELECT COUNT(*) AS id FROM teams WHERE attend=1");
-        $num = mysqli_fetch_array($counter);
-        $num_teams = $num["id"];
         include "competition_vars.php";
         $days_to_start = floor(($competition_start - time())/86400);
         $days_to_register = floor(($registration_end - time())/86400);
@@ -66,11 +62,11 @@ EOT;
         $date_format = "d. m. Y H:i";
         echo '<div class="col-md-9"><h2>Novinky</h2>';
 
-        $result = mysqli_query($link, "SELECT * FROM news ORDER BY id DESC");
+        $result = $pdo->query("SELECT * FROM news ORDER BY id DESC");
         if (!$result) {
           die("Query to show fields from table failed");
         }
-        while($row = mysqli_fetch_assoc($result))
+        foreach($result as $row)
         {
 
           $fdate = date($date_format, strtotime($row["timestamp"]));
@@ -89,11 +85,11 @@ EOT;
         }
 
         echo '<hr><h2>Najnovšie príspevky vo <a href="forum.php">fóre</a></h2>';
-        $result = mysqli_query($link, "SELECT * FROM forum ORDER BY id DESC LIMIT 3");
+        $result = $pdo->query("SELECT * FROM forum ORDER BY id DESC LIMIT 3");
         if (!$result) {
           die("Query to show fields from table failed");
         }
-        while($row = mysqli_fetch_assoc($result))
+        foreach($result as $row)
         {
           $org = "";
           if($row["org"] == 1){

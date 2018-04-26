@@ -1,7 +1,6 @@
 <?php
 include "db_config.php";
-$link = mysqli_connect($db_host,$db_user,$db_password)  or die("failed to connect to server !!");
-mysqli_select_db($link,"nodla");
+$pdo = new PDO($db_host, $db_user, $db_password);
 if(isset($_REQUEST['submit']))
 {
 $errorMessage = "";
@@ -27,25 +26,40 @@ if ($errorMessage != "" ) {
 echo "<p class='message'>" .$errorMessage. "</p>" ;
 }
 else{
-//Inserting record in table using INSERT query
-$insqDbtb="
-UPDATE `nodla`.`teams`
-SET `teamname` = _utf8'$teamname',
-`email` = '$email',
-`phone` = '$phone',
-`name1` = _utf8'$name1',
-`age1` = '$age1',
-`name2` = _utf8'$name2',
-`age2` = '$age2',
-`name3` = _utf8'$name3',
-`age3` = '$age3',
-`name4` = _utf8'$name4',
-`age4` = '$age4',
-`special` = '$special',
-`attend` = '$attend'
-WHERE `id` = '$id'
+$sql = "
+UPDATE `teams`
+SET `teamname` = :teamname,
+`email` = :email,
+`phone` = :phone,
+`name1` = :name1,
+`age1` = :age1,
+`name2` = :name2,
+`age2` = :age2,
+`name3` = :name3,
+`age3` = :age3,
+`name4` = :name4,
+`age4` = :age4,
+`special` = :special,
+`attend` = :attend
+WHERE `accessstring` = :as
 ";
-mysqli_query($link,$insqDbtb) or die(mysqli_error($link));
+$stmt = $pdo->prepare($sql);
+$stmt->bindValue(":teamname", $teamname);
+$stmt->bindValue(":email", $email);
+$stmt->bindValue(":phone", $phone);
+$stmt->bindValue(":name1", $name1);
+$stmt->bindValue(":age1", $age1);
+$stmt->bindValue(":name2", $name2);
+$stmt->bindValue(":age2", $age2);
+$stmt->bindValue(":name3", $name3);
+$stmt->bindValue(":age3", $age3);
+$stmt->bindValue(":name4", $name4);
+$stmt->bindValue(":age4", $age4);
+$stmt->bindValue(":special", $special);
+$stmt->bindValue(":attend", $attend);
+$stmt->bindValue(":as", $as);
+$stmt->execute();
+
 header("Location: edit.php?as=$as&edited=1");
 }
 }
