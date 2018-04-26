@@ -39,15 +39,14 @@
 
     <?php
     include "db_config.php";
-    $link = mysqli_connect($db_host,$db_user,$db_password)  or die("failed to connect to server !!");
-    mysqli_set_charset($link, "utf8");
-    mysqli_select_db($link,"nodla");
 
-    $result = mysqli_query($link, "SELECT * FROM teams");
+    $pdo = new PDO($db_host, $db_user, $db_password);
+    $result = $pdo->query("SELECT * FROM teams");
+    
     if (!$result) {
       die("Query to show fields from table failed");
     }
-    while($row = mysqli_fetch_row($result))
+    foreach ($result as $row)
     {
       if($row[14] == 1){
       echo "<tr>";
