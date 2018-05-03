@@ -85,15 +85,21 @@
                 Jednak chceme mať prehľad, kto kde je, dvak bola by škoda, keby ste to vzdali tesne pred nejakým skvelým stanoviskom, no nie?
                 </p></div>
             <div class="tab-pane fade" id="points"><h2>Bodovanie a nápovedy</h2>
-	    Čoskoro zverejníme.
-	    <!--
-                <p>Vyhráva tím s najvyšším počtom bodov, v prípade rovnosti rozhoduje najvyššie navštívené stanovisko a čas jeho dosiahnutia. Za vyriešenie cieľovej aktivity je +1b.
-                Ku každej šifre existujú 2 nápovedy a totálka. Použitie jednej nápovedy je penalizované 0.5b, dvoch dokopy 0.75b. Tieto body sa strhnú len v prípade, že prídete na nasledujúce stanovisko.
-                Za regulárne vyriešenie šifry (aj s využitím nápoved) a príchod na nasledujúce stanovisko je +1b. Body sa dajú získavať len počas trvania hry.
-                Šifru, na ktorej sa nachádzate, môžete preskočiť požiadaním o totálku, v tom prípade za príchod na nasledujúce stanovisko nezískate žiadne body ani sa nestrhne penalizácia za použité nápovedy - t.j. nápovedy sa vždy oplatia otvoriť pred totálkou.</p>
-
-                <p>Nápovedy a totálky si pýtajte od orga na stanovisku. V prípade, že stanovisko orga nemá, zavolajte na telefónne číslo uvedené v posledných informáciách alebo na štarte.</p>
-		  -->
+	    <p>
+	    Poradie tímov sa určuje podľa počtu vyriešených šifier (čím viac, tým lepšie). V prípade rovnosti rozhoduje číslo posledného navštíveného stanoviska (čím vyššie, tým lepšie) a potom čas príchodu na toto stanovisko (čím skôr, tým lepšie).
+</p><p>
+Nápovedy: Po príchode na stanovisko tím automaticky dostane informáciu o čase, kedy dostane k danej šifre nápovedu. V tomto čase potom tím nápovedu automaticky dostane. Tím nemôže žiadnym spôsobom dostať nápovedu skôr. Za to, že tím dostal nápovedu nie je žiaden postih, tímu sa zaráta šifra normálne ako vyriešená, aj keď ju vyrieši po tom, ako dostal nápovedu. 
+</p><p>
+Čas po ktorom dostanete nápovedu je závislý od šifry a od času kedy tím príde. Platí však, že čím skôr príde tím na stanovisko, tak tým skôr dostanete nápovedu. Je však možné, že keď tím príde na stanovisko neskôr, tak bude na nápovedu čakať kratšie. 
+</p><p>
+Totálna nápoveda: Od momentu, keď tím dostal nápovedu, môže kedykoľkvek požiadať o totálnu nápovedu. Po odoslaní žiadosti tím obdrží polohu nasledujúceho stanoviska. Táto šifra sa samozrejme tímu nezaráta ako vyriešená.
+</p><p>
+Automatická totálna nápoveda: Pre každú šifru je dopredu určený čas, kedy tím dostane totálnu nápovedu. Tento čas je dopredu určený pre každú šifru. Ak tím do tohto času šifru nevyrieši a nepríde na ďalšie stanovisko dostane automaticky totálnu nápovedu, čiže sa mu táto šifra nezaráta ako vyriešená.
+</p><p>
+Tieto časy však nie sú známe. Čo je známe, je čas tzv. odporúčaného odchodu. To je čas, kedy organizátori odporúčajú tímom opustiť predchádzajúce stanovisko, aby sa stihli presunúť na nasledujúce stanovisko skôr ako dostanú automatickú totálnu nápovedu. To znamená, že ak do tohto času tím šifru nevyrieši, organizátori odporúčajú zobrať si totálnu nápovedu, pretože inak tím aj tak nestíha dôjsť na ďalšie stanovisko. Časy odporúčaných odchodov zo všetkých stanovíšť obdržia tímy na začiatku hry.
+</p><p>
+Samozrejme, ak si myslíte, že sa viete presúvať rýchlejšie, ako si myslia organizátori a môžete si dovoliť odísť o 10 minút neskôr, je to váš problém. Upozorňujeme vás, že na 5-minútovom presune sa 10 minút ušetriť nedá… :)
+</p>
               </div>
 	    
             <div class="tab-pane fade" id="bring"><h2>Čo si doniesť</h2>
@@ -109,27 +115,19 @@
                 Zoznam sa môže ešte meniť s blížiacim sa dátumom hry :-)
               </div>
             <div class="tab-pane fade" id="lastinfo"><h2> Posledné informácie </h2>
-	    Budú tu.
-  <!--
-            Začiatok hry je v sobotu o 9:00.
-          Registrácia prebieha v čase 8:00-8:45 tu 48.1743722N, 16.9764869E (pod Devínskym hradom, pri sútoku).
-
-Vzhľadom na množstvo prihlásených tímov doporučujeme spoj č. 28 s príchodom už 7:41 na zastávku Devín. 
-Do neskoršieho autobusu s príchodom o 8:11 sa pravdepodobne všetci nezmestíte a tímy, 
-ktoré prídu až o 8:44 zrejme nemusia stihnúť registráciu a začiatok štartovnej aktivity.
-<br><br>
-Povinná výbava je uvedená na stránke. Okrem toho si doneste fľašu s min. 1 litrom čistej vody (nepoužívať počas hry na pitie :-)
-<br>
-<br>
-Možno sa zíde dáždnik. Možno bude pršať.<br>
-Nezabudnite teplé oblečenie. Možno bude zima.<br>
-Nezabudnite čelovky. Tma bude určite. <br>
-<br><br>
-            Bežky a sánky výrazne nedoporučujeme, ale je to povolený spôsob presunov.
-<br><br>
-            Ak nemáte ešte zaplatené (viď stránka) tak nás kontaktujte, aká je vaša situácia - či už ste platili a ešte to nedošlo, alebo čo sa stalo. 
-            S tímami bez zaplateného alebo ináč dohodnutého poplatku nerátame.
- -->
+<p>
+Registrácia prebieha v piatok od 16:00 do 16:50 a samotná hra začne o 17:00 v Záhorskej Bystrici na tomto <a href="goo.gl/Siq5tN">mieste</a>. Na cestu na štart doporučujeme využiť MHD.
+</p><p>
+Na hru potrebujete okrem iného: kružidlo, lepidlo, nožnice, farbičky, štvorčekový papier a pravítko. Mapu a šifrovaciu pomôcku dostanete na štarte.
+</p><p>
+Počas hry budete potrebovať prístup na internet k informačnému systému, odporúčame preto nabité telefóny a/alebo powerbanky. K navigácii je povolené používanie GPS (ale pozor, žerie baterky..). Papierová mapa od nás by však mala k navigácii postačovať.
+</p><p>
+Na stránke pribudlo vysvetlenie systému nápovied. 
+</p><p>
+V prípade, že ste úplne začiatočnícky tím, kontaktujte organizátorov.
+</p><p>
+Hra končí v sobotu 12:00 na vopred neznámom, dobre dostupnom mieste.
+</p>
             </div>
           </div>
         </div>
