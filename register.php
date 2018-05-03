@@ -15,11 +15,8 @@
     <!-- let the content begin -->
     <?php
     include "db_config.php";
-    $link = mysqli_connect($db_host,$db_user,$db_password)  or die("failed to connect to server !!");
-    mysqli_select_db($link,"nodla");
-    $counter = mysqli_query($link, "SELECT COUNT(*) AS id FROM teams WHERE attend=1");
-    $num = mysqli_fetch_array($counter);
-    $num_teams = $num["id"];
+    $pdo = new PDO($db_host, $db_user, $db_password);
+    $num_teams = $pdo->query("SELECT COUNT(*) AS id FROM teams WHERE attend=1")->fetchColumn();
     $full_capacity_message = "";
     $disabled = "";
     if($num_teams >= $capacity){

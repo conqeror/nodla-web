@@ -60,15 +60,12 @@
 EOT;
       $date_format = "d. m. Y H:i";
       include "db_config.php";
-      $link = mysqli_connect($db_host,$db_user,$db_password)  or die("failed to connect to server !!");
-      mysqli_select_db($link,"nodla");
-      mysqli_set_charset($link, "utf8");
-
-      $result = mysqli_query($link, "SELECT * FROM forum ORDER BY id DESC");
+      $pdo = new PDO($db_host, $db_user, $db_password);
+      $result = $pdo->query("SELECT * FROM forum ORDER BY id DESC");
       if (!$result) {
         die("Query to show fields from table failed");
       }
-      while($row = mysqli_fetch_assoc($result))
+      foreach ($result as $row)
       {
         $org = "";
         if($row["org"] == 1){
