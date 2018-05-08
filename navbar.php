@@ -28,7 +28,7 @@
                         <a href="ciphers.php">Šifry z minula</a>
                     </li>
 		<li>
-                        <a href="results.php">Výsledky z minula</a>
+                        <a href="results.php">Výsledky</a>
                     </li>
 		    
                     <li>

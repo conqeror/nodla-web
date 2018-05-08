@@ -14,7 +14,7 @@
 
     <div class="container first">
         <h1>Výsledky</h1>
-        <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRGMBKmen42z-19-15amHtZ2U92iQv9K46jnIG8rzmH26KBXtwCgIN-McAKduqTHpRri6xnELAVci9p/pubhtml?gid=1212721136&amp;single=true&amp;widget=true&amp;headers=false" width="1000" height="1000"></iframe>    
+	<p>Zatiaľ ich nájdete <a href="https://docs.google.com/spreadsheets/d/1ftzTDDQLmnzec-4NF3y_hoRHieJ6gGDwnTBoBIeSgLU/edit?usp=sharing">tu</a>.
     </div>
 
     <?php include "footer.php" ?>
